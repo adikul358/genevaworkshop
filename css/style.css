@@ -712,7 +712,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
   left: 0;
-  bottom: -30px;
+  bottom: 0px;
   right: 0;
   text-align: center;
   padding-top: 10px;
@@ -746,7 +746,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker:hover .details {
-  bottom: 0;
+  bottom: 20px;
 }
 
 #speakers-details {
@@ -818,7 +818,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
   background-color: #0e1b4d;
   color: #fff;
-  padding: 10px 100px;
+  padding: 10px 60px;
+  margin-bottom: 10px
 }
 
 #schedule .nav-tabs a.active {
@@ -1619,7 +1620,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #schedule .nav-tabs a {
-    padding: 8px 60px;
+    padding: 8px 36px;
   }
 }
 
@@ -1639,7 +1640,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 767px) {
   #schedule .nav-tabs a {
-    padding: 8px 50px;
+    padding: 8px 30px;
   }
 }
 
@@ -1651,7 +1652,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
-    padding: 8px 30px;
+    padding: 8px 18px;
   }
 }
 
