@@ -1076,7 +1076,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#sponsors .sponsor-logo {
+#sponsors .sponsor-logo, #sponsors .sponsor-text {
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1090,13 +1090,28 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-right: 1px solid #e0e5fa;
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 1);
   height: 160px;
 }
 
+#sponsors .sponsor-text {
+  padding:20px;
+  min-height: 50px;
+  height: auto;
+  /* text-align: justify; */
+}
+
+#sponsors .sponsor-text p {
+  margin: 0;
+}
+
+#sponsors .sponsor-text a {
+  font-weight: bold;
+}
+
 #sponsors .sponsor-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.07);
+  transform: scale(1.07);
 }
 
 #sponsors img {
