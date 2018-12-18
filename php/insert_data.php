@@ -13,6 +13,15 @@
         return $id;
     }
 
+    function add_about($id) {
+        $about = array();
+        $about['path'] = "about_data/" . $id . ".txt";
+        $about['file'] = fopen($about['path'], 'w');
+        $about['text'] = $_POST['about'];
+        fwrite($about['file'], $about['text']);
+        fclose($about['file']);
+    }
+
     function add_registration() {
         global $conn;
         $id = generate_id();
@@ -21,7 +30,7 @@
         $em = $_POST['email'];
         $sql = "INSERT INTO registrationData(id, fName, lName, email) VALUES('$id', '$fn', '$ln', '$em')";
         $result = mysqli_query($conn, $sql);
-        if ($result) { $_SESSION['f_name'] = $fn; echo "OK";}
+        if ($result) { add_about($id); $_SESSION['f_name'] = $fn; echo "OK";}
         else { echo "You couldn't be registered successfully as we are having a problem with server communication.<br>" . mysqli_error($conn); }
     }
 
