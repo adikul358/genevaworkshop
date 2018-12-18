@@ -10,18 +10,18 @@ require $_SERVER['DOCUMENT_ROOT'] . '\PHPMailer\src\SMTP.php';
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
     //Server settings
-    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
-    $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp.gmail.com';                       // Specify main and backup SMTP servers
-    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'adi.kul358@gmail.com';             // SMTP username
-    $mail->Password = 'Bs02010021';                      // SMTP password
-    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 587;                                    // TCP port to connect to
+    $mail->SMTPDebug = 2;
+    $mail->isSMTP();
+    $mail->Host = 'smtp.hostinger.com';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'registrations@heisenbergscorner.org';
+    $mail->Password = 'Bs_02010021';
+    $mail->SMTPSecure = 'tls';
+    $mail->Port = 587;
 
     //Recipients
-    $mail->setFrom('no-reply@kanona.org', 'Kanona');
-    $mail->addAddress('aditya.kulshrestha@outlook.com');            
+    $mail->setFrom('registrations@heisenbergscorner.org', 'Kanona');
+    $mail->addAddress('adi.kul358@gmail.com','Aditya Kulshrestha');            
     $mail->addReplyTo('adi.kul358@gmail.com', 'Information');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
@@ -37,8 +37,8 @@ try {
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
-    echo 'Message has been sent';
+    echo '<br><h1>Message has been sent</h1>';
 } catch (Exception $e) {
-    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+    echo '<h1>Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
 }
 ?>
