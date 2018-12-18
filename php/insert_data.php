@@ -18,9 +18,12 @@
         $about['path'] = "about_data/" . $id . ".txt";
         $about['file'] = fopen($about['path'], 'w');
         $about['text'] = $_POST['about'];
+        // $about['text'] = "Hello, I am a guy!";
         fwrite($about['file'], $about['text']);
         fclose($about['file']);
     }
+
+    // add_about("KAN19_34");
 
     function add_registration() {
         global $conn;
