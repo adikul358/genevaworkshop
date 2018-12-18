@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -554,6 +555,7 @@
         </div>
 
         <div class="form">
+          <div id="sendmessage"><?php echo $_SESSION['f_name'];?>, you have been successfully registered. You will recieve a mail regarding all details.</div>
           <div id="errormessage"></div>
           <form action="/php/insert_data.php" method="post" id="registerForm" role="form" class="contactForm">
             <div class="form-row">
@@ -592,8 +594,8 @@
           <div class="col-lg-4 col-md-7 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="https://shivnadarschool.edu.in/website/noida/overview/">Shiv Nadar School</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="http://www.lifelab.org.in/">Life Lab Foundation</a></li>
+              <li><i class="fa fa-angle-right"></i> <a target="_blank" href="https://shivnadarschool.edu.in/website/noida/overview/">Shiv Nadar School</a></li>
+              <li><i class="fa fa-angle-right"></i> <a target="_blank" href="http://www.lifelab.org.in/">Life Lab Foundation</a></li>
             </ul>
           </div>
 
@@ -602,15 +604,13 @@
             <p>
               Shiv Nadar School <br>
               Sector - 168, Noida <br>
-              India <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Phone:</strong> <a href="tel:+918130200199">8130200199</a> / <a href="tel:+918130522499">8130522499</a><br>
             </p>
 
             <div class="social-links">
-              <a href="https://www.facebook.com/ShivNadarSchool" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="https://twitter.com/ShivNadarSchool" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="https://www.linkedin.com/company/shiv-nadar-school" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a target="_blank" href="https://www.facebook.com/ShivNadarSchool" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" href="https://twitter.com/ShivNadarSchool" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/company/shiv-nadar-school" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
           </div>
 
@@ -640,8 +640,6 @@
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
   <script src="lib/jquery/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/ajaxForm.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>

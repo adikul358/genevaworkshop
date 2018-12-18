@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $conn = mysqli_connect("sql189.main-hosting.eu", "u593806508_main", "Bs_02010021", "u593806508_keft");
     
     function generate_id() {
@@ -20,7 +21,7 @@
         $em = $_POST['email'];
         $sql = "INSERT INTO registrationData(id, fName, lName, email) VALUES('$id', '$fn', '$ln', '$em')";
         $result = mysqli_query($conn, $sql);
-        if ($result) { echo $fn . ", you are registered successfully, an email shall be shortly sent to you."; }
+        if ($result) { $_SESSION['f_name'] = $fn; echo "OK";}
         else { echo "You couldn't be registered successfully as we are having a problem with server communication.<br>" . mysqli_error($conn); }
     }
 
