@@ -30,8 +30,8 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#sponsors">Collaborators</a></li>
-          <li><a href="#speakers">Speakers</a></li>
-          <li><a href="#schedule">Schedule</a></li>
+          <!-- <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li> -->
           <li><a href="#venue">Venue</a></li>
           <!-- <li><a href="#gallery">Gallery</a></li> -->
           <li class="buy-tickets"><a href="#register">Registration</a></li>
@@ -524,66 +524,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="container-fluid venue-gallery-container">
-        <div class="row no-gutters">
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/2.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/3.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/4.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/4.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> -->
     </section>
 
     <!-- <section id="gallery" class="wow fadeInUp">
@@ -615,14 +555,14 @@
 
         <div class="form">
           <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          <form action="/php/insert_data.php" method="post" id="registerForm" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Name" data-rule="minlen:1" data-msg="Please enter your first name" />
+                <input type="text" name="f_name" class="form-control" id="first_name" placeholder="First Name" data-rule="minlen:1" data-msg="Please enter your first name" />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="text" name="last_name" class="form-control" id="last_name" placeholder="Last Name" data-rule="minlen:1" data-msg="Please enter your last name" />
+                <input type="text" name="l_name" class="form-control" id="last_name" placeholder="Last Name" data-rule="minlen:1" data-msg="Please enter your last name" />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-12">
@@ -679,11 +619,20 @@
     </div>
 
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <div class="row">
+        <div class="col-lg-6 col-md-7">
+          <div class="copyright">
+            Webpage designed by <span style="color: #00ABEF">Aditya Kulshrestha</span>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-7">
+          <div class="copyright">
+            &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
@@ -691,6 +640,8 @@
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
   <script src="lib/jquery/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/ajaxForm.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
