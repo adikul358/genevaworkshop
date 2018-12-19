@@ -265,7 +265,7 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
+  color: #caceddcc;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -383,7 +383,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(6, 12, 34, 0.9);
+  background: rgba(6, 12, 34, 0.902);
   left: -260px;
   width: 260px;
   overflow-y: auto;
