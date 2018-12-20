@@ -1,6 +1,6 @@
 <?php
-    session_start();
-    $conn = mysqli_connect("sql189.main-hosting.eu", "u593806508_main", "Bs_02010021", "u593806508_keft");
+    require 'kanona_mail.php';
+    require 'conn.php';
     
     function generate_id() {
         global $conn;
@@ -15,7 +15,8 @@
 
     function add_about($id) {
         $about = array();
-        $about['path'] = "about_data/" . $id . ".txt";
+        $about['path'] = "../about_data/temp/" . $id . ".txt";
+        if (!is_dir("../about_data/temp")) { mkdir("../about_data/temp"); }
         $about['file'] = fopen($about['path'], 'w');
         $about['text'] = $_POST['about'];
         // $about['text'] = "Hello, I am a guy!";
@@ -23,7 +24,26 @@
         fclose($about['file']);
     }
 
-    // add_about("KAN19_34");
+    function verify_mail() {
+        $credentials = array(); 
+        $recipents = array(); 
+        $content = array();
+        $vercode = "http://kanonatw.esy.es/verify/?vercode=" . md5($_POST['email']);
+
+        // $_POST['email'] = "aditya.kulshrestha@outlook.com";
+        // $_POST['f_name'] = "Aditya";
+        // $_POST['l_name'] = "Kulshrestha";
+
+        $credentials['username'] = "registrations@heisenbergscorner.org";
+        $recipents[0] = array("email" => $_POST['email'], "name" => $_POST['f_name'] . " " . $_POST['l_name']);
+        $credentials['recipents'] = $recipents;
+        
+        $content['subject'] = "Verification of your account";
+        $content['HTML_body'] = "Kindly click <a href='{$vercode}'>Here</a> to verify your account.";
+        $content['body'] = "Go to the following URL to verify your account: \n\n {$vercode}";
+
+        kanona_mail($credentials, $content);
+    }
 
     function add_registration() {
         global $conn;
@@ -31,10 +51,19 @@
         $fn = $_POST['f_name'];
         $ln = $_POST['l_name'];
         $em = $_POST['email'];
-        $sql = "INSERT INTO registrationData(id, fName, lName, email) VALUES('$id', '$fn', '$ln', '$em')";
+        $vi = md5($_POST['email']);
+        $sql = "INSERT INTO tempData(fName, lName, email, verID) VALUES('$fn', '$ln', '$em', '$vi')";
         $result = mysqli_query($conn, $sql);
-        if ($result) { add_about($id); $_SESSION['f_name'] = $fn; echo "OK";}
-        else { echo "You couldn't be registered successfully as we are having a problem with server communication.<br>" . mysqli_error($conn); }
+        if ($result) { 
+            add_about($id);
+            verify_mail();
+            echo "OK";
+            $_SESSION['v_mail'] = true;
+        }
+        else { 
+            $_SESSION['v_mail'] = false; 
+            echo "You couldn't be registered successfully as we are having a problem with server communication.<br>" . mysqli_error($conn); 
+        }
     }
 
     add_registration();

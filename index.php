@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -555,7 +554,7 @@
         </div>
 
         <div class="form">
-          <div id="sendmessage"><?php echo $_SESSION['f_name'];?>, you have been successfully registered. You will recieve a mail regarding all details.</div>
+          <div id="sendmessage">A mail has been sent to verify your account.<p style="margin:0; font-size:0.9rem; font-weight: 400;">Check your spam folder if you can't see the mail</p></div>
           <div id="errormessage"></div>
           <form action="/php/insert_data.php" method="post" id="registerForm" role="form" class="contactForm">
             <div class="form-row">
