@@ -32,7 +32,8 @@
       height: calc(100% - 70px);
       top: 70px;
       position: relative;
-      padding-top: 100px;
+      padding: 100px;
+      padding-top: 70px;
     }
     .footer {
       flex-shrink: 0;
@@ -55,7 +56,7 @@
     
     <section id="loader" class="section-with-bg">
       <div class="container" style="display:flex; justify-content:center">
-        <h2><img src='../img/loading.gif'/></h2>
+        <img src='../img/loading.gif' style="margin: 20px; margin-top: 0px">
       </div>
     </section>
 
@@ -135,8 +136,7 @@
   <script src="../lib/venobox/venobox.min.js"></script>
   <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="../contactform/contactform.js"></script>
-  <script src="../js/main.js"></script>
-  <script src="../contactform/verifyEmail.js"></script>
+  <script src="../contactform/verifyemail.js"></script>
 </body>
 
 </html>

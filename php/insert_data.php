@@ -6,7 +6,13 @@
         global $conn;
         $sql = "SELECT id FROM registrationData ORDER BY id DESC LIMIT 1";
         $result = mysqli_query($conn, $sql);
-        if ($result) { while($row = mysqli_fetch_assoc($result)) { $last = $row['id']; } }
+        if ($result) { 
+            if(mysqli_num_rows($result)>0) { 
+                while($row = mysqli_fetch_assoc($result)) { 
+                    $last = $row['id']; 
+                } 
+            }
+        }
         else { $last = "KAN19_00"; }
         $last_id = intval(substr($last, 6));  
         $id = $last_id >= 9 ? "KAN19_" . ($last_id + 1) : "KAN19_0" . ($last_id + 1);
@@ -24,26 +30,37 @@
         fclose($about['file']);
     }
 
+    function generate_link($link) {
+        $html = fopen("verification_mail.html", 'r');
+        $html = fread($html, filesize("verification_mail.html"));
+        $html = explode("AKBS", $html);
+        $html = $html[0] . $link . $html[1];
+        return $html;
+    }
+
     function verify_mail() {
+        $_POST['f_name'] = "Aditya";
+        $_POST['l_name'] = "Kulshrestha";
+        $_POST['email'] = "adi.kul358@gmail.com";
+
         $credentials = array(); 
         $recipents = array(); 
         $content = array();
-        $vercode = "http://kanonatw.esy.es/verify/?vercode=" . md5($_POST['email']);
 
-        // $_POST['email'] = "aditya.kulshrestha@outlook.com";
-        // $_POST['f_name'] = "Aditya";
-        // $_POST['l_name'] = "Kulshrestha";
+        $vercode = "http://kanonatw.esy.es/verify/?vercode=" . md5($_POST['email']);
+        $recipents[0] = array("email" => $_POST['email'], "name" => $_POST['f_name'] . " " . $_POST['l_name']);
 
         $credentials['username'] = "registrations@heisenbergscorner.org";
-        $recipents[0] = array("email" => $_POST['email'], "name" => $_POST['f_name'] . " " . $_POST['l_name']);
         $credentials['recipents'] = $recipents;
-        
         $content['subject'] = "Verification of your account";
-        $content['HTML_body'] = "Kindly click <a href='{$vercode}'>Here</a> to verify your account.";
+        $content['HTML_body'] = generate_link($vercode);
         $content['body'] = "Go to the following URL to verify your account: \n\n {$vercode}";
 
         kanona_mail($credentials, $content);
     }
+
+    echo generate_link('https://www.google.co.in');
+    verify_mail();
 
     function add_registration() {
         global $conn;
@@ -66,6 +83,6 @@
         }
     }
 
-    add_registration();
+    // add_registration();
 
 ?>

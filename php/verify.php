@@ -30,5 +30,4 @@
     }
 
     verify($_POST['verID']);
-    // verify('7c89d3361b6dc6cfba7182cee026d695');
 ?>
