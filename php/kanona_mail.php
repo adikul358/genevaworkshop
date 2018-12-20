@@ -10,7 +10,6 @@ require $_SERVER['DOCUMENT_ROOT'] . '/PHPMailer/src/SMTP.php';
 function kanona_mail($credentials, $content) {
     // |-- credentials 
     // |   |-- username
-    // |   |-- password
     // |   |-- recipents
     // |       |-- recipent1
     // |       |   |-- email
@@ -23,7 +22,7 @@ function kanona_mail($credentials, $content) {
     //     |-- subject
     //     |-- HTML_body
     //     |-- body
-    //     |-- attachments
+    //     |-- attachments (optional)
     //         |-- attachment1
     //         |   |-- path
     //         |   |-- name    
@@ -33,6 +32,7 @@ function kanona_mail($credentials, $content) {
     //         |-- ...    
 
     $mail = new PHPMailer(true);
+    $mail->Debugoutput = 'error_log';
     try {
         $mail->SMTPDebug = 2;
         $mail->isSMTP();
@@ -44,10 +44,16 @@ function kanona_mail($credentials, $content) {
         $mail->Port = 587;
 
         $mail->setFrom($credentials['username'], 'Kanona');
-        foreach ($credentials['recipents'] as $recipent) { $mail->addAddress($recipents['email'], $recipents['name']); }
+        foreach ($credentials['recipents'] as $recipent) { 
+            $mail->addAddress($recipent['email'], $recipent['name']); 
+        }
         
         $mail->addReplyTo('adi.kul358@gmail.com', 'help');
-        foreach ($content['attachments'] as $attachment) { $mail->addAttachment($attachment['path'], $attachment['name']); }
+        if(array_key_exists('attachments', $content)) {
+            foreach ($content['attachments'] as $attachment) {
+                $mail->addAttachment($attachment['path'], $attachment['name']); 
+            }
+        }
         $mail->isHTML(true);
         $mail->Subject = $content['subject'];
         $mail->Body    = $content['HTML_body'];
