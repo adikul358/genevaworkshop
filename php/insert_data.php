@@ -1,5 +1,6 @@
 <?php
-    session_start();
+    require 'kanona_mail.php';
+
     $conn = mysqli_connect("sql189.main-hosting.eu", "u593806508_main", "Bs_02010021", "u593806508_keft");
     
     function generate_id() {
@@ -16,6 +17,7 @@
     function add_about($id) {
         $about = array();
         $about['path'] = "about_data/" . $id . ".txt";
+        if (!is_dir("about_data")) { mkdir("about_data"); }
         $about['file'] = fopen($about['path'], 'w');
         $about['text'] = $_POST['about'];
         // $about['text'] = "Hello, I am a guy!";
@@ -23,17 +25,20 @@
         fclose($about['file']);
     }
 
-    // add_about("KAN19_34");
-
     function add_registration() {
         global $conn;
         $id = generate_id();
         $fn = $_POST['f_name'];
         $ln = $_POST['l_name'];
         $em = $_POST['email'];
-        $sql = "INSERT INTO registrationData(id, fName, lName, email) VALUES('$id', '$fn', '$ln', '$em')";
+        $sql = "INSERT INTO tempData(id, fName, lName, email, state) VALUES('$id', '$fn', '$ln', '$em', 0)";
         $result = mysqli_query($conn, $sql);
-        if ($result) { add_about($id); $_SESSION['f_name'] = $fn; echo "OK";}
+        if ($result) { 
+            add_about($id); 
+            kanona_mail($credentials, $content);
+            echo "OK";
+            $_SESSION['v_mail'] = true;
+        }
         else { echo "You couldn't be registered successfully as we are having a problem with server communication.<br>" . mysqli_error($conn); }
     }
 
