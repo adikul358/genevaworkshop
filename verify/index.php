@@ -28,15 +28,22 @@
     .content {
       flex: 1 0 auto;
     }
+    .content section {
+      height: calc(100% - 70px);
+      top: 70px;
+      position: relative;
+      padding-top: 100px;
+    }
     .footer {
       flex-shrink: 0;
     }
   </style>
 </head>
 
-<body>
+<body onload='verifyAJAX("7c89d3361b6dc6cfba7182cee026d695")'>
   <div class="content">
-    <header id="header" class="header-scrolled" style="position:initial">
+
+    <header id="header" class="header-scrolled">
       <div class="container">
         <div id="logo" class="pull-left">
           <a href="../#intro" class="scrollto">
@@ -45,18 +52,23 @@
         </div>
       </div>
     </header>
-
-    <section id="register" class="section-with-bg" style="height:100%">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h2>Great! You are verified</h2>
-          <p>You shall now recieve all important emails from Kanona</p>
-        </div>
-        <div class="form" style="display:flex; justify-content: center;"><a href="/"><button type="submit">Go To Home</button></a></div>
+    
+    <section id="loader" class="section-with-bg">
+      <div class="container" style="display:flex; justify-content:center">
+        <h2><img src='../img/loading.gif'/></h2>
       </div>
     </section>
-  </div>
 
+    <section id="register" class="section-with-bg" style="display:none">
+      <div class="container wow fadeInUp">
+        <div class="section-header" id="yes">
+          <h2 id="confirmation"></h2>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -124,6 +136,7 @@
   <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="../contactform/contactform.js"></script>
   <script src="../js/main.js"></script>
+  <script src="../contactform/verifyEmail.js"></script>
 </body>
 
 </html>

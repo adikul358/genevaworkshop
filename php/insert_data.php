@@ -52,7 +52,7 @@
         $ln = $_POST['l_name'];
         $em = $_POST['email'];
         $vi = md5($_POST['email']);
-        $sql = "INSERT INTO tempData(fName, lName, email, state, verID) VALUES('$fn', '$ln', '$em', 0, '$vi')";
+        $sql = "INSERT INTO tempData(fName, lName, email, verID) VALUES('$fn', '$ln', '$em', '$vi')";
         $result = mysqli_query($conn, $sql);
         if ($result) { 
             add_about($id);
