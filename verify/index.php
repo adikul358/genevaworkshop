@@ -39,8 +39,8 @@
     }
   </style>
 </head>
-
-<body onload='verifyAJAX("7c89d3361b6dc6cfba7182cee026d695")'>
+<?php $code = "'" . $_GET['vercode'] . "'";?>
+<body onload="verifyAJAX(<?php echo $code;?>)">
   <div class="content">
 
     <header id="header" class="header-scrolled">

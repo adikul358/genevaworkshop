@@ -13,13 +13,14 @@
         return $id;
     }
 
-    function generate_html() {
-        $html = explode("AKBS", fread(fopen("verification_mail.html", 'r'), filesize("verification_mail.html")))[0] . $verID . explode("AKBS", fread(fopen("verification_mail.html", 'r'), filesize("verification_mail.html")))[1]; 
+    function generate_html($verID) {
+        $verlink = "https://kanonatw.esy.es/verify/?vercode=" . $verID;
+        $html = explode("AKBS", fread(fopen("verification_mail.html", 'r'), filesize("verification_mail.html")))[0] . $verlink . explode("AKBS", fread(fopen("verification_mail.html", 'r'), filesize("verification_mail.html")))[1]; 
         return $html;
     }
 
     function add_about($id) {
-        $about = array();
+        $about = array();   
         $about['path'] = "../about_data/temp/" . $id . ".txt";
         if (!is_dir("../about_data")) { mkdir("../about_data"); }
         if (!is_dir("../about_data/temp")) { mkdir("../about_data/temp"); }
@@ -30,9 +31,9 @@
     }
 
     function verify_mail() {
-        $_POST['email'] = "aditya.kulshrestha@outlook.com";
-        $_POST['f_name'] = "Aditya";
-        $_POST['l_name'] = "Kulshrestha";
+        // $_POST['email'] = "aditya.kulshrestha@outlook.com";
+        // $_POST['f_name'] = "Aditya";
+        // $_POST['l_name'] = "Kulshrestha";
 
         $credentials = array(); $recipents = array(); $content = array(); $verID = md5($_POST['email']);
 
@@ -42,13 +43,17 @@
         
         $content['subject'] = "Verification of your account";
         $content['HTML_body'] = generate_html($verID);
-        echo $content['HTML_body'];
         $content['body'] = "Go to the following URL to verify your account: \n\n http://kanonatw.esy.es/verify/?verID={$verID}";
 
         kanona_mail($credentials, $content);
     }
 
-    verify_mail();
+    function checkAL($name_return = false) {
+        $email = $_POST['email'];
+        $sql = "SELECT fName, lName, email FROM registrationData WHERE email='$email'";
+        $result = mysqli_query($conn, $sql);
+        if (mysqli_num_rows)
+    }
 
     function add_registration() {
         global $conn;
@@ -70,6 +75,9 @@
         }
     }
 
-    // add_registration();
+    if (checkAL()) {
+        echo "AL-" . ""
+    }
+    add_registration();
 
 ?>

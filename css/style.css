@@ -689,9 +689,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
   color: #fff;
+  line-height: 1.9;
 }
 
 /*--------------------------------------------------------------
@@ -1612,6 +1613,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
+  }
+
+  #aboutcol {
+    border: none !important;
   }
 
   #nav-menu-container {
