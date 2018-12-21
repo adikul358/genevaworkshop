@@ -12,6 +12,10 @@
         return $id;
     }
 
+    function shift_data() {
+        
+    }
+
     function verify($verID) {
         global $conn;
         $id = generate_id();
@@ -19,13 +23,10 @@
         $result = mysqli_query($conn, $sql);
         while($row = mysqli_fetch_assoc($result)) { $email = $row['email']; $name = $row['fName'] . " " . $row['lName']; }
         if(mysqli_num_rows($result) > 0) {
-            $sql = "INSERT INTO registrationData(fName, lName, email) SELECT fName, lName, email FROM tempData WHERE verID='$verID';
-                    DELETE FROM tempData WHERE verID='$verID;'
-                    UPDATE TABLE registationData SET id = '$id' WHERE email='$email'";
-            mysqli_multi_query($conn, $sql);
-            echo "OK*-*" . $name;
+            shift_data($verID, $email);
+            echo "OK-" . $name;
         } else {
-            echo "NO*-*Oops, there was a problem in verifying your email <br> " . mysqli_error($conn);
+            echo "Oops, there was a problem in verifying your email <br> " . mysqli_error($conn);
         }
     }
 
