@@ -40,8 +40,8 @@
     }
   </style>
 </head>
-
-<body onload='verifyAJAX("7c89d3361b6dc6cfba7182cee026d695")'>
+<?php $code = "'" . $_GET['vercode'] . "'";?>
+<body onload="verifyAJAX(<?php echo $code;?>)">
   <div class="content">
 
     <header id="header" class="header-scrolled">
@@ -65,6 +65,7 @@
         <div class="section-header" id="yes">
           <h2 id="confirmation"></h2>
         </div>
+        <div class="form" style="display:flex; justify-content: center;"><a href="/"><button type="submit">Go To Home</button></a></div>
       </div>
     </section>
 

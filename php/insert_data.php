@@ -19,13 +19,19 @@
         return $id;
     }
 
+    function generate_html($verID) {
+        $verlink = "https://kanonatw.esy.es/verify/?vercode=" . $verID;
+        $html = explode("AKBS", fread(fopen("verification_mail.html", 'r'), filesize("verification_mail.html")))[0] . $verlink . explode("AKBS", fread(fopen("verification_mail.html", 'r'), filesize("verification_mail.html")))[1]; 
+        return $html;
+    }
+
     function add_about($id) {
-        $about = array();
+        $about = array();   
         $about['path'] = "../about_data/temp/" . $id . ".txt";
+        if (!is_dir("../about_data")) { mkdir("../about_data"); }
         if (!is_dir("../about_data/temp")) { mkdir("../about_data/temp"); }
         $about['file'] = fopen($about['path'], 'w');
         $about['text'] = $_POST['about'];
-        // $about['text'] = "Hello, I am a guy!";
         fwrite($about['file'], $about['text']);
         fclose($about['file']);
     }
@@ -39,32 +45,30 @@
     }
 
     function verify_mail() {
-        $_POST['f_name'] = "Aditya";
-        $_POST['l_name'] = "Kulshrestha";
-        $_POST['email'] = "adi.kul358@gmail.com";
+        // $_POST['email'] = "aditya.kulshrestha@outlook.com";
+        // $_POST['f_name'] = "Aditya";
+        // $_POST['l_name'] = "Kulshrestha";
 
-        $credentials = array(); 
-        $recipents = array(); 
-        $content = array();
-
-        $vercode = "http://kanonatw.esy.es/verify/?vercode=" . md5($_POST['email']);
-        $recipents[0] = array("email" => $_POST['email'], "name" => $_POST['f_name'] . " " . $_POST['l_name']);
+        $credentials = array(); $recipents = array(); $content = array(); $verID = md5($_POST['email']);
 
         $credentials['username'] = "registrations@heisenbergscorner.org";
         $credentials['recipents'] = $recipents;
         $content['subject'] = "Verification of your account";
-        $content['HTML_body'] = generate_link($vercode);
-        $content['body'] = "Go to the following URL to verify your account: \n\n {$vercode}";
+        $content['HTML_body'] = generate_html($verID);
+        $content['body'] = "Go to the following URL to verify your account: \n\n http://kanonatw.esy.es/verify/?verID={$verID}";
 
         kanona_mail($credentials, $content);
     }
 
-    echo generate_link('https://www.google.co.in');
-    verify_mail();
+    function checkAL($name_return = false) {
+        $email = $_POST['email'];
+        $sql = "SELECT fName, lName, email FROM registrationData WHERE email='$email'";
+        $result = mysqli_query($conn, $sql);
+        if (mysqli_num_rows)
+    }
 
     function add_registration() {
         global $conn;
-        $id = generate_id();
         $fn = $_POST['f_name'];
         $ln = $_POST['l_name'];
         $em = $_POST['email'];
@@ -72,7 +76,7 @@
         $sql = "INSERT INTO tempData(fName, lName, email, verID) VALUES('$fn', '$ln', '$em', '$vi')";
         $result = mysqli_query($conn, $sql);
         if ($result) { 
-            add_about($id);
+            add_about($vi);
             verify_mail();
             echo "OK";
             $_SESSION['v_mail'] = true;
@@ -83,6 +87,9 @@
         }
     }
 
-    // add_registration();
+    if (checkAL()) {
+        echo "AL-" . ""
+    }
+    add_registration();
 
 ?>

@@ -45,8 +45,7 @@
       <!-- <p class="mb-4 pb-0">Shiv Nadar School Noida in Association with Life Lab Foundation and International School of Geneva</p> -->
       <h1 class="mb-4 pb-0"><span>Kanona</span><br>Education for Transformation</h1>
       <p class="mb-4 pb-0">April 2019</p>
-      <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true"></a> -->
+      <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a> -->
       <a href="#about" class="about-btn scrollto">About The Event</a>
     </div>
   </section>
@@ -57,7 +56,34 @@
         <div class="row">
           <div class="col-lg-9">
             <h2>About The Event</h2>
-            <p style="text-align: justify">This first of its kind certified professional development program for 50 high school teachers of STEM subjects is a collaborative initiative by The International School of Geneva, Life Lab Foundation and the Shiv Nadar School. Designed and delivered by senior educators and curriculum developers from the International School of Geneva, this training program will empower teachers with 21st century pedagogical knowledge and skills in interdisciplinary STEM fields. Anchored around the UN Sustainable Development Goals, the modules will focus on concept-based teaching and learning, project-based experiential learning, STEM through arts, movement and mindfulness, as well as addressing inclusion and diversity in the classroom. Participants will gain valuable skills in cross-disciplinary teaching, developing student-centred curriculum , incorporating social skills, character development and citizenship, and addressing special needs. </p>
+            <style> 
+              p#befli { line-height: 1; }
+              ul#alter li:nth-child(even) { color: #6ed6ff; }
+              div#aboutcol { border-right: 1px solid #fff; }
+            </style>
+            <p style="text-align: justify">
+            This first of its kind certified professional development program for 50 high school teachers of STEM subjects is a collaborative initiative by The International School of Geneva, Life Lab Foundation and the Shiv Nadar School. Designed and delivered by senior educators and curriculum developers from the International School of Geneva, this training program will empower teachers with 21st century pedagogical knowledge and skills in interdisciplinary STEM fields. 
+            <div class="row">
+              <div class="col-lg-6" id=aboutcol>
+                <p id="befli">Anchored around the UN Sustainable Development Goals, the modules will focus on:</p>
+                <ul id=alter>
+                  <li>Concept-based teaching and learning</li>
+                  <li>Project-based experiential learning</li>
+                  <li>STEM through arts, movement and mindfulness</li>
+                  <li>Addressing inclusion and diversity in the classroom</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <p id="befli">Participants will gain valuable skills from a wide arena. These include:</p>
+                <ul id=alter>
+                  <li>Cross-disciplinary teaching</li>
+                  <li>Developing student-centred curriculum</li>
+                  <li>Incorporating social skills</li>
+                  <li>Character development and citizenship</li>
+                  <li>Addressing special needs</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div class="col-lg-3">
             <h3>Where</h3>

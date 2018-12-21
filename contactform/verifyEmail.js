@@ -4,13 +4,19 @@ function verifyAJAX(verID) {
     url: "../php/verify.php",
     data: {"verID": verID},
     success: function(msg) {
-      status = msg.split("*-*");
-      console.log(status);
-      if (status[0] == 'OK') {
-        $('#confirmation').html(msg + ", your email is succesfully verified");
+      console.log(msg);
+      res = msg.split("-");
+      console.log(res); 
+      console.log(res[0] + " : " + res[1]);
+      if (res[0] == 'OK') {
+        $('#confirmation').html(res[1] + ", your email is succesfully verified");
         $('#yes').append("<p>You will now recieve all important emails from Kanona Education for Transformation</p>");
+      } else if (res[0] == 'AL') {
+        $('#confirmation').html(res[1] + ", your email is already verified");
+        // $('#yes').append("<p>You will now recieve all important emails from Kanona Education for Transformation</p>");
       } else { 
-        $('#confirmation').html("Oops, there was a problem with verifying your email :("); 
+        // $('#confirmation').html("Oops, there was a problem with verifying your email :("); 
+        $('#confirmation').html(msg); 
       }
       $('#loader').css("display", "none");
       $('#register').css("display", "flex");
