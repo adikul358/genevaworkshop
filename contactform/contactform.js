@@ -104,7 +104,7 @@ jQuery(document).ready(function($) {
       success: function(msg) {
         // alert(msg);
         if (msg == 'OK') {
-          default_html = 'A mail has been sent to verify your account.<p style="margin:0; font-size:0.9rem; font-weight: 400;">Check your spam folder if you can' + "'t see the mail</p>";
+          var  default_html = 'A mail has been sent to verify your account.<p style="margin:0; font-size:0.9rem; font-weight: 400;">Check your spam folder if you can' + "'t see the mail</p>";
           $('#sendmessage').html(default_html);
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
