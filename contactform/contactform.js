@@ -117,7 +117,7 @@ jQuery(document).ready(function($) {
             $("#errormessage").removeClass("show");
             $('.contactForm').find("input, textarea").val(""); 
           } else if (res[0] == "AL") {
-            $("#sendmessage").html(res[1] + ", you already have an unverified account, please check your mail to verify it.");
+            $("#sendmessage").html("You already have an unverified account, please check your mail to verify it.");
             $("#sendmessage").addClass("show");
             $("#errormessage").removeClass("show");
             $('.contactForm').find("input, textarea").val(""); 

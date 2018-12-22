@@ -598,7 +598,7 @@
               </div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="about" rows="5" data-rule="required" data-msg="Please write something about you" placeholder="Brief description about you"></textarea>
+              <textarea class="form-control" name="about" rows="5" data-rule="minlen:150" data-msg="Please write more than 150 characters" placeholder="Brief description about you"></textarea>
               <div class="validation"></div>
             </div>
             <div class="text-center"><button type="submit">Register</button></div>
