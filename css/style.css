@@ -144,7 +144,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 
-#header {
+#header, #header-no{
   height: 90px;
   padding: 25px 0;
   position: fixed;
@@ -156,14 +156,15 @@ h6 {
 }
 
 #header.header-scrolled,
-#header.header-fixed {
+#header.header-fixed, #header-no.header-scrolled,
+#header-no.header-fixed {
   background: rgba(6, 12, 34, 0.98);
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
 }
 
-#header #logo h1 {
+#header #logo h1, #header-no #logo h1 {
   font-size: 36px;
   margin: 0;
   padding: 0px 0;
@@ -174,12 +175,12 @@ h6 {
   text-transform: uppercase;
 }
 
-#header #logo h1 span {
+#header #logo h1 span, #header-no #logo h1 span {
   color: #00ABEF;
 }
 
 #header #logo h1 a,
-#header #logo h1 a:hover {
+#header #logo h1 a:hover, {
   color: #fff;
 }
 

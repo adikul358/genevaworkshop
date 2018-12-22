@@ -62,7 +62,7 @@
               div#aboutcol { border-right: 1px solid #fff; }
             </style>
             <p style="text-align: justify">
-            This first of its kind certified professional development program for 50 high school teachers of STEM subjects is a collaborative initiative by The International School of Geneva, Life Lab Foundation and the Shiv Nadar School. Designed and delivered by senior educators and curriculum developers from the International School of Geneva, this training program will empower teachers with 21st century pedagogical knowledge and skills in interdisciplinary STEM fields. 
+            This first of its kind certified professional development program for 50 high school teachers of STEM subjects is a collaborative initiative by Life Lab Foundation and Shiv Nadar School. Designed and delivered by senior educators and curriculum developers from the International School of Geneva, this training program will empower teachers with 21st century pedagogical knowledge and skills in interdisciplinary STEM fields. 
             <div class="row">
               <div class="col-lg-6" id=aboutcol>
                 <p id="befli">Anchored around the UN Sustainable Development Goals, the modules will focus on:</p>

@@ -3,6 +3,9 @@ jQuery(document).ready(function($) {
 
   //Contact
   $('form.contactForm').submit(function() {
+    $("#sendmessage").removeClass("show");
+    $("#errormessage").removeClass("show");
+
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
@@ -105,9 +108,22 @@ jQuery(document).ready(function($) {
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val(""); 
         } else {
-          $("#sendmessage").removeClass("show");
-          $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
+          var res = msg.split(":-");
+          if (res[0] == "AL -v") {
+            $("#sendmessage").html(res[1] + ", you already have a verified account.");
+            $("#sendmessage").addClass("show");
+            $("#errormessage").removeClass("show");
+            $('.contactForm').find("input, textarea").val(""); 
+          } else if (res[0] == "AL") {
+            $("#sendmessage").html(res[1] + ", you already have an unverified account, please check your mail to verify it.");
+            $("#sendmessage").addClass("show");
+            $("#errormessage").removeClass("show");
+            $('.contactForm').find("input, textarea").val(""); 
+          } else {
+            $("#sendmessage").removeClass("show");
+            $("#errormessage").addClass("show");
+            $('#errormessage').html(msg);
+          }
         }
 
       }

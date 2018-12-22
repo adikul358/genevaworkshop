@@ -41,10 +41,11 @@
   </style>
 </head>
 <?php $code = "'" . $_GET['vercode'] . "'";?>
+
 <body onload="verifyAJAX(<?php echo $code;?>)">
   <div class="content">
 
-    <header id="header" class="header-scrolled">
+    <header id="header-no" class="header-scrolled">
       <div class="container">
         <div id="logo" class="pull-left">
           <a href="../#intro" class="scrollto">
@@ -53,7 +54,7 @@
         </div>
       </div>
     </header>
-    
+
     <section id="loader" class="section-with-bg">
       <div class="container" style="display:flex; justify-content:center">
         <img src='../img/loading.gif' style="margin: 20px; margin-top: 0px">
@@ -65,12 +66,14 @@
         <div class="section-header" id="yes">
           <h2 id="confirmation"></h2>
         </div>
-        <div class="form" style="display:flex; justify-content: center;"><a href="/"><button type="submit">Go To Home</button></a></div>
+        <div class="form" style="display:flex; justify-content: center; margin-bottom: 60px">
+          <a href="/"><button type="submit">Go To Home</button></a>
+        </div>
       </div>
     </section>
 
   </div>
-  
+
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -136,6 +139,7 @@
   <script src="../lib/wow/wow.min.js"></script>
   <script src="../lib/venobox/venobox.min.js"></script>
   <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="../js/main.js"></script>
   <script src="../contactform/contactform.js"></script>
   <script src="../contactform/verifyemail.js"></script>
 </body>

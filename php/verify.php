@@ -25,8 +25,8 @@
         mysqli_multi_query($conn, $sql);
         // if (!$result) { die(mysqli_error($conn)); }
         
-        $temp_file = fread(fopen("../about_data/temp/" . $verID . ".txt", 'r'), filesize("../about_data/temp/" . $verID . ".txt"));
-        unlink("../about_data/temp/" . $verID . ".txt");
+        $temp_file = fread(fopen("../about_data/unverified/" . $verID . ".txt", 'r'), filesize("../about_data/unverified/" . $verID . ".txt"));
+        unlink("../about_data/unverified/" . $verID . ".txt");
         fwrite(fopen("../about_data/" . $id . ".txt", 'w'), $temp_file);
     }
 
