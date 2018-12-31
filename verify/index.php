@@ -140,8 +140,8 @@
   <script src="../lib/venobox/venobox.min.js"></script>
   <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="../js/main.js"></script>
-  <script src="../contactform/contactform.js"></script>
-  <script src="../contactform/verifyemail.js"></script>
+  <script src="../js/\contactform.js"></script>
+  <script src="../js/\verifyemail.js"></script>
 </body>
 
 </html>

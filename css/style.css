@@ -655,7 +655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 
-#about {
+#about, #socialevent {
   background: url("../img/about-bg.jpg");
   background-size: cover;
   overflow: hidden;
@@ -664,7 +664,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 40px 0;
 }
 
-#about:before {
+#about:before, #socialevent:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
   position: absolute;
@@ -674,14 +674,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
-#about h2 {
+#about h2, #socialevent h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
 }
 
-#about h3 {
+#about h3, #socialevent h3 {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -689,7 +689,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#about p {
+#about p, #socialevent p {
   font-size: 16px;
   margin-bottom: 20px;
   color: #fff;
