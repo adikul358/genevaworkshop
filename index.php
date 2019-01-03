@@ -104,20 +104,20 @@
           </div>
   
           <div class="row no-gutters collaborators-wrap clearfix">
-            <div class="col-lg-6 col-md-4 col-xs-6">
+            <div class="col-lg-6 col-md-6 col-xs-6">
               <div class="collaborator-logo">
                 <img src="img/collaborators/SNS.png" class="img-fluid" alt="Shiv Nadar School Noida">
               </div>
               <div class="collaborator-text">
-                <p><a href="https://shivnadarschool.edu.in/website/noida/overview/">Shiv Nadar School, Noida</a> is a K12 education initiative by the philanthropic Shiv Nadar Foundation. Shiv Nadar School Noida is affiliated to the CBSE Board. It is also a candidate school for the International Baccalaureate (IB) Diploma Programme and pursuing authorization as an IB World School. The core philosophy guiding the school is that of ‘Education for Life’. We guide our students to become lifelong learners, equipping them with all skills needed to battle the various degrees of challenges posed by life.</p>
+                <p><a target="_blank" href="https://shivnadarschool.edu.in/website/noida/overview/">Shiv Nadar School, Noida</a> is a K12 education initiative by the philanthropic Shiv Nadar Foundation. Shiv Nadar School Noida is affiliated to the CBSE Board. It is also a candidate school for the International Baccalaureate (IB) Diploma Programme and pursuing authorization as an IB World School. The core philosophy guiding the school is that of ‘Education for Life’. We guide our students to become lifelong learners, equipping them with all skills needed to battle the various degrees of challenges posed by life.</p>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-xs-6">
+            <div class="col-lg-6 col-md-6 col-xs-6">
               <div class="collaborator-logo">
                 <img src="img/collaborators/LLF.png" class="img-fluid" alt="LifeLab Foundation">
               </div>
               <div class="collaborator-text">
-                <p><a href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p> 
+                <p><a target="_blank" href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p> 
               </div>
             </div>
           </div>
@@ -132,63 +132,42 @@
   
           <div class="row no-gutters sponsors-wrap clearfix">
             <div class="col-lg-3 col-md-4 col-xs-3">
-              <div class="sponsor-logo">
+              <div class="sponsors-logo">
                 <img src="img/sponsors/SNS.png" class="img-fluid" alt="Shiv Nadar School Noida">
               </div>
-              <!-- <div class="sponsor-text">
-                <p><a href="https://shivnadarschool.edu.in/website/noida/overview/">Shiv Nadar School, Noida</a> is a K12 education initiative by the philanthropic Shiv Nadar Foundation. Shiv Nadar School Noida is affiliated to the CBSE Board. It is also a candidate school for the International Baccalaureate (IB) Diploma Programme and pursuing authorization as an IB World School. The core philosophy guiding the school is that of ‘Education for Life’. We guide our students to become lifelong learners, equipping them with all skills needed to battle the various degrees of challenges posed by life.</p>
-              </div> -->
             </div>
             <div class="col-lg-3 col-md-4 col-xs-3">
-              <div class="sponsor-logo">
+              <div class="sponsors-logo">
                 <img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
               </div>
-              <!-- <div class="sponsor-text">
-                <p><a href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p> 
-              </div> -->
             </div>
             <div class="col-lg-3 col-md-4 col-xs-3">
-              <div class="sponsor-logo">
+              <div class="sponsors-logo">
                 <img src="img/sponsors/SNS.png" class="img-fluid" alt="LifeLab Foundation">
               </div>
-              <!-- <div class="sponsor-text">
-                <p><a href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p> 
-              </div> -->
             </div>
             <div class="col-lg-3 col-md-4 col-xs-3">
-              <div class="sponsor-logo">
+              <div class="sponsors-logo">
                 <img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
               </div>
-              <!-- <div class="sponsor-text">
-                <p><a href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p> 
-              </div> -->
             </div>
             <div class="col-lg-3 col-md-4 col-xs-3">
-              <div class="sponsor-logo">
+              <div class="sponsors-logo">
                 <img src="img/sponsors/SNS.png" class="img-fluid" alt="Shiv Nadar School Noida">
               </div>
-              <!-- <div class="sponsor-text">
-                <p><a href="https://shivnadarschool.edu.in/website/noida/overview/">Shiv Nadar School, Noida</a> is a K12 education initiative by the philanthropic Shiv Nadar Foundation. Shiv Nadar School Noida is affiliated to the CBSE Board. It is also a candidate school for the International Baccalaureate (IB) Diploma Programme and pursuing authorization as an IB World School. The core philosophy guiding the school is that of ‘Education for Life’. We guide our students to become lifelong learners, equipping them with all skills needed to battle the various degrees of challenges posed by life.</p>
-              </div> -->
             </div>
             <div class="col-lg-3 col-md-4 col-xs-3">
-              <div class="sponsor-logo">
+              <div class="sponsors-logo">
                 <img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
               </div>
-              <!-- <div class="sponsor-text">
-                <p><a href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p> 
-              </div> -->
             </div>
             <div class="col-lg-3 col-md-4 col-xs-3">
-              <div class="sponsor-logo">
+              <div class="sponsors-logo">
                 <img src="img/sponsors/SNS.png" class="img-fluid" alt="LifeLab Foundation">
               </div>
-              <!-- <div class="sponsor-text">
-                <p><a href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p> 
-              </div> -->
             </div>
             <div class="col-lg-3 col-md-4 col-xs-3">
-              <div class="sponsor-logo">
+              <div class="sponsors-logo">
                 <img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
               </div>
               <!-- <div class="sponsor-text">
