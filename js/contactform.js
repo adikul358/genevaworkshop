@@ -9,6 +9,7 @@ jQuery(document).ready(function($) {
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+    var phoneExp = /^[0-9]*$/;
 
     f.children('input').each(function() { // run all inputs
 
@@ -53,6 +54,12 @@ jQuery(document).ready(function($) {
           case 'regexp':
             exp = new RegExp(exp);
             if (!exp.test(i.val())) {
+              ferror = ierror = true;
+            }
+            break;
+
+          case 'phone':
+            if (i.val().length < 10 || !phoneExp.test(i.val())) {
               ferror = ierror = true;
             }
             break;
