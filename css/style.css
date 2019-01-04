@@ -413,7 +413,7 @@ h6 {
   outline: none;
 }
 
-#mobile-nav ul li a:hover {
+#mobile-nav ul li a:hover, #mobile-nav ul li.menu-active > a {
   color: #00ABEF;
 }
 
@@ -1078,7 +1078,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#sponsors .sponsor-logo, #sponsors .sponsor-text,
+#sponsors .sponsors-logo, #sponsors .sponsor-text,
 #collaborators .collaborator-logo, #collaborators .collaborator-text {
   padding: 30px;
   display: -webkit-box;
@@ -1115,7 +1115,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
 }
 
-#sponsors .sponsor-logo:hover img,
+#sponsors .sponsors-logo:hover img,
 #collaborators .collaborator-logo:hover img {
   -webkit-transform: scale(1.07);
   transform: scale(1.07);
