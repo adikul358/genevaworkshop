@@ -47,7 +47,7 @@
 
 	<section id="intro">
 		<div class="intro-container wow fadeIn">
-			<p class="mb-4 pb-0">Life Lab Education and Research in collaboration with Shiv Nadar School, Noida</p>
+			<p class="mb-4 pb-0">Life Lab Education and Research in collaboration with Shiv Nadar Foundation</p>
 			<h1 class="mb-4 pb-0"><span>Kanona</span><br>Education for Transformation</h1>
 			<p class="mb-4 pb-0">April 2019</p>
 			<!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a> -->
@@ -68,7 +68,7 @@
 						</style>
 						<p style="text-align: justify">
 							This first-of-its-kind certified professional development program for 50 high school teachers of STEM subjects
-							is a collaborative initiative by Life Lab Foundation and Shiv Nadar School. Designed and delivered by senior IB
+							is a collaborative initiative by Life Lab Foundation and Shiv Nadar Foundation. Designed and delivered by senior IB
 							school educators from Geneva and eminent CERN scientists, this training program will empower teachers with 21st
 							century pedagogical knowledge and skills in interdisciplinary STEM fields.
 						</p>
@@ -118,15 +118,10 @@
 				<div class="row no-gutters collaborators-wrap clearfix">
 					<div class="col-lg-6 col-md-6 col-xs-6">
 						<div class="collaborator-logo">
-							<img src="img/collaborators/SNS.png" class="img-fluid" alt="Shiv Nadar School Noida">
+							<img src="img/collaborators/SNF.png" class="img-fluid" alt="Shiv Nadar School Noida">
 						</div>
 						<div class="collaborator-text">
-							<p><a target="_blank" href="https://shivnadarschool.edu.in/website/noida/overview/">Shiv Nadar School, Noida</a>
-								is a K12 education initiative by the philanthropic Shiv Nadar Foundation. Shiv Nadar School Noida is affiliated
-								to the CBSE Board. It is also a candidate school for the International Baccalaureate (IB) Diploma Programme and
-								pursuing authorization as an IB World School. The core philosophy guiding the school is that of ‘Education for
-								Life’. We guide our students to become lifelong learners, equipping them with all skills needed to battle the
-								various degrees of challenges posed by life.</p>
+							<p><a target="_blank" href="https://shivnadarfoundation.org">The Shiv Nadar Foundation</a> was established in 1994 by Shiv Nadar, Founder, HCL. The Foundation is committed to the creation of a more equitable, merit-based society by empowering individuals through transformational education to bridge the socio-economic divide. To that purpose the Foundation has established institutions and programs in the underdeveloped disciplinary areas in India related to rural and urban education and art.</p>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-xs-6">
@@ -134,12 +129,7 @@
 							<img src="img/collaborators/LLF.png" class="img-fluid" alt="LifeLab Foundation">
 						</div>
 						<div class="collaborator-text">
-							<p><a target="_blank" href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and
-								nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN).
-								Its goal is to educate students beyond the school curriculum to explore modern scientific research and its
-								applications in the real world. Through engagement programs for students and teachers, it exposes young people
-								to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a
-								difference.</p>
+							<p><a target="_blank" href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p>
 						</div>
 					</div>
 				</div>
@@ -155,7 +145,7 @@
 				<div class="row no-gutters sponsors-wrap clearfix">
 					<div class="col-lg-3 col-md-4 col-xs-3">
 						<div class="sponsors-logo">
-							<img src="img/sponsors/SNS.png" class="img-fluid" alt="Shiv Nadar School Noida">
+							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-xs-3">
@@ -165,7 +155,7 @@
 					</div>
 					<div class="col-lg-3 col-md-4 col-xs-3">
 						<div class="sponsors-logo">
-							<img src="img/sponsors/SNS.png" class="img-fluid" alt="LifeLab Foundation">
+							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-xs-3">
@@ -175,7 +165,7 @@
 					</div>
 					<div class="col-lg-3 col-md-4 col-xs-3">
 						<div class="sponsors-logo">
-							<img src="img/sponsors/SNS.png" class="img-fluid" alt="Shiv Nadar School Noida">
+							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-xs-3">
@@ -185,7 +175,7 @@
 					</div>
 					<div class="col-lg-3 col-md-4 col-xs-3">
 						<div class="sponsors-logo">
-							<img src="img/sponsors/SNS.png" class="img-fluid" alt="LifeLab Foundation">
+							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-4 col-xs-3">
