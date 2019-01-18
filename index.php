@@ -67,10 +67,8 @@
 							div#aboutcol { border-right: 1px solid #fff; }
 						</style>
 						<p style="text-align: justify">
-							This first-of-its-kind certified professional development program for 50 high school teachers of STEM subjects
-							is a collaborative initiative by Life Lab Foundation and Shiv Nadar Foundation. Designed and delivered by senior IB
-							school educators from Geneva and eminent CERN scientists, this training program will empower teachers with 21st
-							century pedagogical knowledge and skills in interdisciplinary STEM fields.
+							This first-of-its-kind certified professional development program for 50 high school teachers of STEM subjects is a collaborative initiative by CERN, Life Lab Foundation and Shiv Nadar Foundation. Designed and delivered by senior IB
+							school educators from Geneva and eminent CERN scientists, this training program will empower teachers with 21st century pedagogical knowledge and skills in interdisciplinary STEM fields.
 						</p>
 						<div class="row">
 							<div class="col-lg-6" id=aboutcol>
