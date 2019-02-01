@@ -47,7 +47,7 @@
 
 	<section id="intro">
 		<div class="intro-container wow fadeIn">
-			<p class="mb-4 pb-0">Life Lab Education and Research in collaboration with Shiv Nadar Foundation</p>
+			<p class="mb-4 pb-0">CERN South Asia Science Education Programme in Association with Life Lab Education and Research Foundation and Shiv Nadar Foundation</p>
 			<h1 class="mb-4 pb-0"><span>Kanona</span><br>Education for Transformation</h1>
 			<p class="mb-4 pb-0">April 2019</p>
 			<!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a> -->
