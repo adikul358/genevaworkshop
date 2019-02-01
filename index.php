@@ -67,30 +67,27 @@
 							div#aboutcol { border-right: 1px solid #fff; }
 						</style>
 						<p style="text-align: justify">
-							This first-of-its-kind certified professional development program for 50 high school teachers of STEM subjects
-							is a collaborative initiative by CERN, Life Lab Foundation and Shiv Nadar Foundation. Designed and delivered by
-							senior IB
-							school educators from Geneva and eminent CERN scientists, this training program will empower teachers with 21st
-							century pedagogical knowledge and skills in interdisciplinary STEM fields.
+							This five-day interactive seminar, offers participants opportunity explore the strategies that foster deep reflective teaching and learning. In this forum, experts from the IB  Schools Geneva and CERN scientists will work collaboratively with the selective participants to brainstorm ways to develop a pedagogy to support UN Sustainable Goals 2020. The experts will share their tested knowledge and experience of teaching and learning based on the wider context of UN Sustainable Development Goals. 
 						</p>
 						<div class="row">
 							<div class="col-lg-6" id=aboutcol>
-								<p id="befli">Anchored around the UN Sustainable Development Goals, the modules will focus on:</p>
+								<p id="befli">Program Highlights:</p>
 								<ul>
-									<li>Concept-based teaching and learning</li>
-									<li>Project-based experiential learning</li>
-									<li>STEM through arts, movement and mindfulness</li>
-									<li>Addressing inclusion and diversity in the classroom</li>
+									<li>Hands-on activities</li>
+									<li>Develop Prototype Lesson plan keeping STEAM in mind</li>
+									<li>Experiential Learning by Delivering Lecture in school</li>
+									<li>A panel discussion on the value of the 21<sup>st</sup> century skills</li>
+									<li>A field visit of Inter-University Accelerator Centre</li>
 								</ul>
 							</div>
 							<div class="col-lg-6">
 								<p id="befli">Participants will gain valuable skills from a wide arena. These include:</p>
 								<ul>
-									<li>Cross-disciplinary teaching</li>
-									<li>Developing student-centred curriculum</li>
-									<li>Incorporating social skills</li>
-									<li>Character development and citizenship</li>
-									<li>Addressing special needs</li>
+									<li>Cross-disciplinary teaching strategies of STEAM</li>
+									<li>Designing inquiry and concept-based teaching and learning</li>
+									<li>About the place of intercultural understanding, character development and citizenship</li>
+									<li>Building Professional networks</li>
+									<li>Addressing inclusion and diversity in the classroom</li>
 								</ul>
 							</div>
 						</div>
