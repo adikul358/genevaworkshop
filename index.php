@@ -34,8 +34,8 @@
 					<li><a href="#about">About</a></li>
 					<li><a href="#collaborators">Collaborators</a></li>
 					<li><a href="#sponsors">Sponsors</a></li>
-					<!-- <li><a href="#speakers">Speakers</a></li>
-          <li><a href="#schedule">Schedule</a></li> -->
+					<!-- <li><a href="#speakers">Speakers</a></li> -->
+					<li><a href="#schedule">Schedule</a></li>
 					<li><a href="#venue">Venue</a></li>
 					<li><a href="#socialevent">Social Event</a></li>
 					<!-- <li><a href="#gallery">Gallery</a></li> -->
@@ -67,8 +67,11 @@
 							div#aboutcol { border-right: 1px solid #fff; }
 						</style>
 						<p style="text-align: justify">
-							This first-of-its-kind certified professional development program for 50 high school teachers of STEM subjects is a collaborative initiative by CERN, Life Lab Foundation and Shiv Nadar Foundation. Designed and delivered by senior IB
-							school educators from Geneva and eminent CERN scientists, this training program will empower teachers with 21st century pedagogical knowledge and skills in interdisciplinary STEM fields.
+							This first-of-its-kind certified professional development program for 50 high school teachers of STEM subjects
+							is a collaborative initiative by CERN, Life Lab Foundation and Shiv Nadar Foundation. Designed and delivered by
+							senior IB
+							school educators from Geneva and eminent CERN scientists, this training program will empower teachers with 21st
+							century pedagogical knowledge and skills in interdisciplinary STEM fields.
 						</p>
 						<div class="row">
 							<div class="col-lg-6" id=aboutcol>
@@ -107,19 +110,373 @@
 			</div>
 		</section>
 
+		<section id="schedule" class="section-with-bg">
+			<div class="container wow fadeInUp">
+				<div class="section-header">
+					<h2>Event Schedule</h2>
+					<p>Here is our event schedule</p>
+				</div>
+
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Day 3</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#day-4" role="tab" data-toggle="tab">Day 4</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#day-5" role="tab" data-toggle="tab">Day 5</a>
+					</li>
+				</ul>
+
+				<div class="tab-content row justify-content-center">
+					<div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>09:30 AM</time></div>
+							<div class="col-md-10">
+								<h4>Registration</h4>
+								<p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>10:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/1.jpg" alt="Brenden Legros">
+								</div>
+								<h4>Keynote <span>Brenden Legros</span></h4>
+								<p>Facere provident incidunt quos voluptas.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>11:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/2.jpg" alt="Hubert Hirthe">
+								</div>
+								<h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+								<p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>12:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/3.jpg" alt="Cole Emmerich">
+								</div>
+								<h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+								<p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>02:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/4.jpg" alt="Jack Christiansen">
+								</div>
+								<h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+								<p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>03:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/5.jpg" alt="Alejandrin Littel">
+								</div>
+								<h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+								<p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>04:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/6.jpg" alt="Willow Trantow">
+								</div>
+								<h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+								<p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+							</div>
+						</div>
+					</div>
+
+					<div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-2">
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>10:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/1.jpg" alt="Brenden Legros">
+								</div>
+								<h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
+								<p>Facere provident incidunt quos voluptas.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>11:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/2.jpg" alt="Hubert Hirthe">
+								</div>
+								<h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+								<p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>12:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/3.jpg" alt="Cole Emmerich">
+								</div>
+								<h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+								<p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>02:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/4.jpg" alt="Jack Christiansen">
+								</div>
+								<h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+								<p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>03:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/5.jpg" alt="Alejandrin Littel">
+								</div>
+								<h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+								<p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>04:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/6.jpg" alt="Willow Trantow">
+								</div>
+								<h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+								<p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+							</div>
+						</div>
+					</div>
+
+					<div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-3">
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>10:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/2.jpg" alt="Hubert Hirthe">
+								</div>
+								<h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+								<p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>11:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/3.jpg" alt="Cole Emmerich">
+								</div>
+								<h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+								<p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>12:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/1.jpg" alt="Brenden Legros">
+								</div>
+								<h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
+								<p>Facere provident incidunt quos voluptas.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>02:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/4.jpg" alt="Jack Christiansen">
+								</div>
+								<h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+								<p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>03:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/5.jpg" alt="Alejandrin Littel">
+								</div>
+								<h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+								<p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>04:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/6.jpg" alt="Willow Trantow">
+								</div>
+								<h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+								<p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+							</div>
+						</div>
+					</div>
+
+					<div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-4">
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>10:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/1.jpg" alt="Brenden Legros">
+								</div>
+								<h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
+								<p>Facere provident incidunt quos voluptas.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>11:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/2.jpg" alt="Hubert Hirthe">
+								</div>
+								<h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+								<p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>12:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/3.jpg" alt="Cole Emmerich">
+								</div>
+								<h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+								<p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>02:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/4.jpg" alt="Jack Christiansen">
+								</div>
+								<h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+								<p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>03:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/5.jpg" alt="Alejandrin Littel">
+								</div>
+								<h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+								<p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>04:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/6.jpg" alt="Willow Trantow">
+								</div>
+								<h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+								<p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+							</div>
+						</div>
+					</div>
+
+					<div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-5">
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>10:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/2.jpg" alt="Hubert Hirthe">
+								</div>
+								<h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+								<p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>11:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/3.jpg" alt="Cole Emmerich">
+								</div>
+								<h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+								<p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>12:00 AM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/1.jpg" alt="Brenden Legros">
+								</div>
+								<h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
+								<p>Facere provident incidunt quos voluptas.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>02:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/4.jpg" alt="Jack Christiansen">
+								</div>
+								<h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+								<p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>03:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/5.jpg" alt="Alejandrin Littel">
+								</div>
+								<h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+								<p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time>04:00 PM</time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/6.jpg" alt="Willow Trantow">
+								</div>
+								<h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+								<p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section id="collaborators" class="section-bg wow fadeInUp">
 			<div class="container">
 				<div class="section-header">
 					<h2>A Collaborative Effort By</h2>
 				</div>
-
 				<div class="row no-gutters collaborators-wrap clearfix">
 					<div class="col-lg-6 col-md-6 col-xs-6">
 						<div class="collaborator-logo">
 							<img src="img/collaborators/SNF.png" class="img-fluid" alt="Shiv Nadar School Noida">
 						</div>
 						<div class="collaborator-text">
-							<p><a target="_blank" href="https://shivnadarfoundation.org">The Shiv Nadar Foundation</a> was established in 1994 by Shiv Nadar, Founder, HCL. The Foundation is committed to the creation of a more equitable, merit-based society by empowering individuals through transformational education to bridge the socio-economic divide. To that purpose the Foundation has established institutions and programs in the underdeveloped disciplinary areas in India related to rural and urban education and art.</p>
+							<p><a target="_blank" href="https://shivnadarfoundation.org">The Shiv Nadar Foundation</a> was established in
+								1994 by Shiv Nadar, Founder, HCL. The Foundation is committed to the creation of a more equitable, merit-based
+								society by empowering individuals through transformational education to bridge the socio-economic divide. To
+								that purpose the Foundation has established institutions and programs in the underdeveloped disciplinary areas
+								in India related to rural and urban education and art.</p>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-xs-6">
@@ -127,7 +484,12 @@
 							<img src="img/collaborators/LLF.png" class="img-fluid" alt="LifeLab Foundation">
 						</div>
 						<div class="collaborator-text">
-							<p><a target="_blank" href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p>
+							<p><a target="_blank" href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and
+								nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN).
+								Its goal is to educate students beyond the school curriculum to explore modern scientific research and its
+								applications in the real world. Through engagement programs for students and teachers, it exposes young people
+								to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a
+								difference.</p>
 						</div>
 					</div>
 				</div>
@@ -213,7 +575,7 @@
 			</div>
 		</section>
 
-		<section id="socialevent">
+		<!-- <section id="socialevent">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9">
@@ -222,15 +584,15 @@
 							Workshop reception hosted by Life Lab Education and Research Foundation and Shiv Nadar Foundation <div class="row">
 							</div>
 					</div>
-					<!-- <div class="col-lg-3">
+					<div class="col-lg-3">
 						<h3>Where</h3>
 						<p>Shiv Nadar School, Noida</p>
 						<h3>When</h3>
 						<p>April 2019</p>
-					</div> -->
+					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<section id="register" class="section-with-bg wow fadeInUp">
 			<div class="container">
@@ -287,8 +649,8 @@
 					<div class="col-lg-4 col-md-7 footer-links">
 						<h4>Useful Links</h4>
 						<ul>
-							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="https://shivnadarschool.edu.in/website/noida/overview/">Shiv
-									Nadar School</a></li>
+							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="https://shivnadarfoundation.org">Shiv Nadar
+									Foundation</a></li>
 							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="http://www.lifelab.org.in/">Life Lab Foundation</a></li>
 						</ul>
 					</div>
