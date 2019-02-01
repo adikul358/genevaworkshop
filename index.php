@@ -61,17 +61,13 @@
 				<div class="row">
 					<div class="col-lg-9">
 						<h2>About The Event</h2>
-						<style>
-							p#befli { line-height: 1; }
-							ul#alter li:nth-child(even) { color: #6ed6ff; }
-							div#aboutcol { border-right: 1px solid #fff; }
-						</style>
+						<style>div#aboutcol { border-right: 1px solid #fff; }</style>
 						<p style="text-align: justify">
 							This five-day interactive seminar, offers participants opportunity explore the strategies that foster deep reflective teaching and learning. In this forum, experts from the IB  Schools Geneva and CERN scientists will work collaboratively with the selective participants to brainstorm ways to develop a pedagogy to support UN Sustainable Goals 2020. The experts will share their tested knowledge and experience of teaching and learning based on the wider context of UN Sustainable Development Goals. 
 						</p>
 						<div class="row">
 							<div class="col-lg-6" id=aboutcol>
-								<p id="befli">Program Highlights:</p>
+								<p>Program Highlights:</p>
 								<ul>
 									<li>Hands-on activities</li>
 									<li>Develop Prototype Lesson plan keeping STEAM in mind</li>
@@ -81,7 +77,7 @@
 								</ul>
 							</div>
 							<div class="col-lg-6">
-								<p id="befli">Participants will gain valuable skills from a wide arena. These include:</p>
+								<p>Participants will gain valuable skills from a wide arena. These include:</p>
 								<ul>
 									<li>Cross-disciplinary teaching strategies of STEAM</li>
 									<li>Designing inquiry and concept-based teaching and learning</li>
@@ -107,6 +103,134 @@
 			</div>
 		</section>
 
+		
+
+		<section id="collaborators" class="section-bg wow fadeInUp">
+			<div class="container">
+				<div class="section-header">
+					<h2>A Collaborative Effort By</h2>
+				</div>
+				<div class="row no-gutters collaborators-wrap clearfix">
+					<div class="col-lg-4 col-md-6 col-xs-4">
+						<div class="collaborator-logo">
+							<img src="https://spng.pngfly.com/20180521/rf/kisspng-cern-logo-atlas-experiment-lhcb-experiment-researc-unilever-plc-5b03503e9ca268.9079972715269438066416.jpg" class="img-fluid" alt="Shiv Nadar School Noida">
+						</div>
+						<div class="collaborator-text">
+							<p><a target="_blank" href="https://shivnadarfoundation.org">The Shiv Nadar Foundation</a> was established in
+								1994 by Shiv Nadar, Founder, HCL. The Foundation is committed to the creation of a more equitable, merit-based
+								society by empowering individuals through transformational education to bridge the socio-economic divide. To
+								that purpose the Foundation has established institutions and programs in the underdeveloped disciplinary areas
+								in India related to rural and urban education and art.</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-xs-6">
+						<div class="collaborator-logo">
+							<img src="img/collaborators/SNF.png" class="img-fluid" alt="Shiv Nadar School Noida">
+						</div>
+						<div class="collaborator-text">
+							<p><a target="_blank" href="https://shivnadarfoundation.org">The Shiv Nadar Foundation</a> was established in
+								1994 by Shiv Nadar, Founder, HCL. The Foundation is committed to the creation of a more equitable, merit-based
+								society by empowering individuals through transformational education to bridge the socio-economic divide. To
+								that purpose the Foundation has established institutions and programs in the underdeveloped disciplinary areas
+								in India related to rural and urban education and art.</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-xs-6">
+						<div class="collaborator-logo">
+							<img src="img/collaborators/LLF.png" class="img-fluid" alt="LifeLab Foundation">
+						</div>
+						<div class="collaborator-text">
+							<p><a target="_blank" href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and
+								nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN).
+								Its goal is to educate students beyond the school curriculum to explore modern scientific research and its
+								applications in the real world. Through engagement programs for students and teachers, it exposes young people
+								to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a
+								difference.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section id="sponsors" class="section-with-bg wow fadeInUp">
+			<div class="container">
+				<div class="section-header">
+					<h2>Our Sponsors</h2>
+				</div>
+
+				<div class="row no-gutters sponsors-wrap clearfix">
+					<div class="col-lg-3 col-md-4 col-xs-3">
+						<div class="sponsors-logo">
+							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-3">
+						<div class="sponsors-logo">
+							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-3">
+						<div class="sponsors-logo">
+							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-3">
+						<div class="sponsors-logo">
+							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-3">
+						<div class="sponsors-logo">
+							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-3">
+						<div class="sponsors-logo">
+							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-3">
+						<div class="sponsors-logo">
+							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-xs-3">
+						<div class="sponsors-logo">
+							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
+						</div>
+						<div class="sponsor-text">
+                <p><a href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p> 
+              </div>
+					</div>
+				</div>
+			</div>
+		</section>-->
+
+		<section id="venue" class="section-bg wow fadeInUp">
+			<div class="container-fluid">
+				<div class="section-header">
+					<h2>Event Venue</h2>
+					<p>Event venue location info</p>
+				</div>
+
+				<div class="row no-gutters">
+
+					<div class="col-lg-6 venue-info">
+						<div class="row justify-content-center">
+							<div class="col-11 col-lg-8">
+								<h3>Shiv Nadar School, Noida</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 venue-map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.4923372880658!2d77.4094825144762!3d28.49483148247239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce42f2c86894f%3A0x3f22d6386a33c560!2sShiv+Nadar+School!5e0!3m2!1sen!2sin!4v1544720901693"
+						 frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		
 		<section id="schedule" class="section-with-bg">
 			<div class="container wow fadeInUp">
 				<div class="section-header">
@@ -453,120 +577,6 @@
 								<p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="collaborators" class="section-bg wow fadeInUp">
-			<div class="container">
-				<div class="section-header">
-					<h2>A Collaborative Effort By</h2>
-				</div>
-				<div class="row no-gutters collaborators-wrap clearfix">
-					<div class="col-lg-6 col-md-6 col-xs-6">
-						<div class="collaborator-logo">
-							<img src="img/collaborators/SNF.png" class="img-fluid" alt="Shiv Nadar School Noida">
-						</div>
-						<div class="collaborator-text">
-							<p><a target="_blank" href="https://shivnadarfoundation.org">The Shiv Nadar Foundation</a> was established in
-								1994 by Shiv Nadar, Founder, HCL. The Foundation is committed to the creation of a more equitable, merit-based
-								society by empowering individuals through transformational education to bridge the socio-economic divide. To
-								that purpose the Foundation has established institutions and programs in the underdeveloped disciplinary areas
-								in India related to rural and urban education and art.</p>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-xs-6">
-						<div class="collaborator-logo">
-							<img src="img/collaborators/LLF.png" class="img-fluid" alt="LifeLab Foundation">
-						</div>
-						<div class="collaborator-text">
-							<p><a target="_blank" href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and
-								nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN).
-								Its goal is to educate students beyond the school curriculum to explore modern scientific research and its
-								applications in the real world. Through engagement programs for students and teachers, it exposes young people
-								to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a
-								difference.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="sponsors" class="section-with-bg wow fadeInUp">
-			<div class="container">
-				<div class="section-header">
-					<h2>Our Sponsors</h2>
-				</div>
-
-				<div class="row no-gutters sponsors-wrap clearfix">
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
-						</div>
-						<!-- <div class="sponsor-text">
-                <p><a href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p> 
-              </div> -->
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="venue" class="section-bg wow fadeInUp">
-			<div class="container-fluid">
-				<div class="section-header">
-					<h2>Event Venue</h2>
-					<p>Event venue location info</p>
-				</div>
-
-				<div class="row no-gutters">
-
-					<div class="col-lg-6 venue-info">
-						<div class="row justify-content-center">
-							<div class="col-11 col-lg-8">
-								<h3>Shiv Nadar School, Noida</h3>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6 venue-map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.4923372880658!2d77.4094825144762!3d28.49483148247239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce42f2c86894f%3A0x3f22d6386a33c560!2sShiv+Nadar+School!5e0!3m2!1sen!2sin!4v1544720901693"
-						 frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
