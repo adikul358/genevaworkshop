@@ -33,11 +33,10 @@
 					<li class="menu-active"><a href="#intro">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#collaborators">Collaborators</a></li>
-					<li><a href="#sponsors">Sponsors</a></li>
-					<!-- <li><a href="#speakers">Speakers</a></li> -->
-					<li><a href="#schedule">Schedule</a></li>
+					<!-- <li><a href="#sponsors">Sponsors</a></li>
+					<li><a href="#speakers">Speakers</a></li> -->
 					<li><a href="#venue">Venue</a></li>
-					<li><a href="#socialevent">Social Event</a></li>
+					<li><a href="#schedule">Schedule</a></li>
 					<!-- <li><a href="#gallery">Gallery</a></li> -->
 					<li class="buy-tickets"><a href="#register">Registration</a></li>
 				</ul>
@@ -47,8 +46,8 @@
 
 	<section id="intro">
 		<div class="intro-container wow fadeIn">
-			<p class="mb-4 pb-0">CERN South Asia Science Education Programme in Association with Life Lab Education and Research Foundation and Shiv Nadar Foundation</p>
-			<h1 class="mb-4 pb-0"><span>Kanona</span><br>Education for Transformation</h1>
+			<h1 class="mb-4 pb-0">CERN South Asia Science Education Programme</h1>
+			<p class="mb-4 pb-0">In Association with Life Lab Education and Research Foundation and Shiv Nadar Foundation</p>
 			<p class="mb-4 pb-0">April 2019</p>
 			<!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a> -->
 			<a href="#about" class="about-btn scrollto">About The Event</a>
