@@ -525,7 +525,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro p {
   color: #ebebeb;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #intro .play-btn {
@@ -1644,7 +1644,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro p {
-    font-size: 16px;
+    font-size: 26px;
   }
 
   #schedule .nav-tabs a {
