@@ -868,7 +868,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-7">
 					<div class="copyright">
-						Webpage designed by <span style="color: #00ABEF">Aditya Kulshrestha</span>
+						Website designed by <span style="color: #00ABEF">Aditya Kulshrestha</span>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-7">
