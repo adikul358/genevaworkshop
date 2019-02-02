@@ -21,7 +21,7 @@
 
     function shift_data($verID) {
         global $conn; $id = generate_id();
-        $sql = "INSERT INTO registrationData(fName, lName, email, verID) SELECT fName, lName, email, verID FROM tempData WHERE verID='$verID'; DELETE FROM tempData WHERE verID='$verID'; UPDATE registrationData SET id = '$id' WHERE verID='$verID';";
+        $sql = "INSERT INTO registrationData(fName, lName, email, phone, verID) SELECT fName, lName, email, phone, verID FROM tempData WHERE verID='$verID'; DELETE FROM tempData WHERE verID='$verID'; UPDATE registrationData SET id = '$id' WHERE verID='$verID';";
         mysqli_multi_query($conn, $sql);
         // if (!$result) { die(mysqli_error($conn)); }
         

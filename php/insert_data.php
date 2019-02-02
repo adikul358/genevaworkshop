@@ -81,9 +81,10 @@
         global $conn;
         $fn = $_POST['f_name'];
         $ln = $_POST['l_name'];
+        $ph = $_POST['phone'];
         $em = $_POST['email'];
         $vi = md5($_POST['email']);
-        $sql = "INSERT INTO tempData(fName, lName, email, verID) VALUES('$fn', '$ln', '$em', '$vi')";
+        $sql = "INSERT INTO tempData(fName, lName, email, phone, verID) VALUES('$fn', '$ln', '$em', '$ph', '$vi')";
         $result = mysqli_query($conn, $sql);
         if ($result) { 
             add_about($vi);
