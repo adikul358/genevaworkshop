@@ -789,7 +789,7 @@
 				<div class="section-header">
 					<h2>Register Now</h2>
 					<p>Sign yourself up for this highly informative event!</p>
-					<p>Registration Fee is Rs. 2500/-</p>
+					<p>Registration Fee is Rs. 7500/-</p>
 				</div>
 
 				<div class="form">
