@@ -24,7 +24,7 @@
 		<div class="container">
 			<div id="logo" class="pull-left">
 				<a href="#intro" class="scrollto">
-					<h1 class="mb-4 pb-0"><span>Kanona</span></h1>
+					<!-- <h1 class="mb-4 pb-0"><span>Kanona</span></h1> -->
 				</a>
 			</div>
 
@@ -46,7 +46,6 @@
 			<h1 class="mb-4 pb-0">CERN South Asia Science Education Programme</h1>
 			<p class="intro-assoc mb-4 pb-0">In Association with Life Lab Education and Research Foundation and Shiv Nadar
 				Foundation</p>
-			<p class="mb-4 pb-0">April 2019</p>
 			<!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a> -->
 			<a href="#about" class="about-btn scrollto">About The Event</a>
 		</div>
