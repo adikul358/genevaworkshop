@@ -54,7 +54,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9">
-						<img style="padding-top: 15px" width="100%" src="img/about-bg.jpg" alt="">
+						<img style="padding-bottom: 25px" width="100%" src="img/about-bg.jpg" alt="">
 						<h2>About The Event</h2>
 						<style>div#aboutcol { border-right: 1px solid #fff; }</style>
 						<p>
