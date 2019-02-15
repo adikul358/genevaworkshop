@@ -1,3 +1,3 @@
 <?php
-    $conn = mysqli_connect("sql189.main-hosting.eu", "u593806508_main", "Bs_02010021", "u593806508_keft");
+    $conn = mysqli_connect("den1.mysql1.gear.host", "keft", "Bs_02010021", "keft");
 ?>
