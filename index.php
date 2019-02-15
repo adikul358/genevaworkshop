@@ -3,12 +3,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Kanona Education for Transformation</title>
+	<title>CERN South Asia Science Education Program</title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta content="" name="keywords">
-	<meta content="" name="description">
-	<link href="img/favicon.png" rel="icon">
-	<link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+	<link href="img/favicon.ico" rel="icon">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
 	 rel="stylesheet">
 	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,7 +40,8 @@
 
 	<section id="intro">
 		<div class="intro-container wow fadeIn">
-			<h1 class="mb-4 pb-0">CERN South Asia Science Education Programme</h1>
+			<h1 id="go" class="mb-4 pb-0">CERN South Asia Science Education Program</h1>
+			<p class="intro-subtitle mb-4 pb-0">Certified STEAM Training Program for High-School Teachers</p>
 			<p class="intro-assoc mb-4 pb-0">In Association with Life Lab Education and Research Foundation and Shiv Nadar
 				Foundation</p>
 			<!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a> -->
@@ -56,34 +54,36 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9">
+						<img style="padding-top: 15px" width="100%" src="img/about-bg.jpg" alt="">
 						<h2>About The Event</h2>
 						<style>div#aboutcol { border-right: 1px solid #fff; }</style>
-						<p style="text-align: justify">
-							This five-day interactive seminar, offers participants opportunity explore the strategies that foster deep
-							reflective teaching and learning. In this forum, experts from the IB Schools Geneva and CERN scientists will
-							work collaboratively with the selective participants to brainstorm ways to develop a pedagogy to support UN
-							Sustainable Goals 2020. The experts will share their tested knowledge and experience of teaching and learning
-							based on the wider context of UN Sustainable Development Goals.
+						<p>
+							This first-of-its-kind certified professional development program for 50 high school teachers of STEM
+							subjects is an international collaborative initiative by CERN, The International School of Geneva
+							(Ecolint) and Life Lab Foundation. Designed and delivered by senior school educators and eminent
+							CERN scientists, this training program will empower teachers with 21st century pedagogical
+							knowledge and skills in interdisciplinary STEAM fields.
 						</p>
 						<div class="row">
 							<div class="col-lg-6" id=aboutcol>
-								<p>Program Highlights:</p>
+								<h3>THEMES</h3>
+								<p>Anchored around the UN Sustainable Development Goals, the modules will focus on:</p>
 								<ul>
-									<li>Hands-on activities</li>
-									<li>Develop Prototype Lesson plan keeping STEAM in mind</li>
-									<li>Experiential Learning by Delivering Lecture in school</li>
-									<li>A panel discussion on the value of the 21<sup>st</sup> century skills</li>
-									<li>A field visit of Inter-University Accelerator Centre</li>
+									<li>Concept-based teaching and learning</li>
+									<li>Project-based experiential learning</li>
+									<li>STEM through arts, movement and mindfulness</li>
+									<li>Addressing inclusion and diversity in the classroom</li>
 								</ul>
 							</div>
 							<div class="col-lg-6">
+								<h3>LEARNING OUTCOMES</h3>
 								<p>Participants will gain valuable skills from a wide arena. These include:</p>
 								<ul>
-									<li>Cross-disciplinary teaching strategies of STEAM</li>
-									<li>Designing inquiry and concept-based teaching and learning</li>
-									<li>About the place of intercultural understanding, character development and citizenship</li>
-									<li>Building Professional networks</li>
-									<li>Addressing inclusion and diversity in the classroom</li>
+									<li>Cross-disciplinary teaching</li>
+									<li>Developing student-centred curriculum</li>
+									<li>Incorporating social skills</li>
+									<li>Character development and citizenship</li>
+									<li>Addressing special needs</li>
 								</ul>
 							</div>
 						</div>
@@ -92,12 +92,9 @@
 						<h3>Where</h3>
 						<p>Shiv Nadar School, Noida</p>
 						<h3>When</h3>
-						<p>April 2019</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12">
-						<img style="padding-top: 15px" width="100%" src="img/about-bg.jpg" alt="">
+						<p>22-26 April 2019</p>
+						<h3>No. of Seats</h3>
+						<p>80</p>
 					</div>
 				</div>
 			</div>
@@ -111,41 +108,69 @@
 					<h2>A Collaborative Effort By</h2>
 				</div>
 				<div class="row no-gutters collaborators-wrap clearfix">
-					<div class="col-lg-4 col-md-12 col-xs-4">
-						<div class="collaborator-logo">
-							<img src="img/collaborators/CERN.jpeg" class="img-fluid" alt="CERN">
-						</div>
+					<div class="col-lg-6 col-md-12 col-xs-6">
+						<a target="_blank" href="https://home.cern">
+							<div class="collaborator-logo">
+								<img src="img/collaborators/CERN.jpeg" class="img-fluid" alt="CERN">
+							</div>
+						</a>
 						<div class="collaborator-text">
-							<p><a target="_blank" href="https://home.cern">Conseil européen pour la recherche nucléaire (CERN)</a> or The
-								European Organization for Nuclear Research</p>
+							<p><a target="_blank" href="https://home.cern">CERN</a> Conseil européen pour la recherche nucléaire (CERN) or
+								The European Organization for Nuclear Research was established in 1954 in Geneva, Switzerland and has become a
+								prime example of international collaboration. The mission of this unique laboratory is to enable research at
+								the forefront of human knowledge by performing world-class research in fundamental physic and to unite people
+								from all over the world to push the frontiers of science and technology, for the benefit of all. Beyond
+								science, CERN also aims to train a new generation of scientists and engineers and to inspire and nurture
+								scientific awareness in all citizens.</p>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-12 col-xs-4">
+					<div class="col-lg-6 col-md-12 col-xs-6">
+						<a target="_blank" href="https://ecolint.ch">
+							<div class="collaborator-logo">
+								<img src="img/collaborators/EcolInt.jpg" class="img-fluid" alt="Ecolint">
+						</a>
+					</div></a>
+					<div class="collaborator-text">
+						<p><a target="_blank" href="https://ecolint.ch">The International School of Geneva</a> (also known as Ecolint) is
+							the very first international school to opens its doors in 1924. Founded by local educators and by officials of
+							the League of Nations and the International Labour Organization, the purpose of the school was, and still is, to
+							provide an international education based on the progressive educational principles of the education nouvelle
+							movement. Ecolint, with a focus on education for peace, is the birthplace of the International Baccalaureate
+							Diploma Programme (IB) – the first diplomas were issued in 1971 in its historical Greek Theatre. Today, the
+							school, with over 4000 enrolled students offers a variety of programmes on three campus. The STEM Centre,
+							managed by Mrs. Labelle (STEM Director) opened its doors in 2016 on the LGB (La Grande Boissière) campus. </p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-xs-6">
+					<a target="_blank" href="http://www.shivnadarfoundation.org/">
 						<div class="collaborator-logo">
 							<img src="img/collaborators/SNF.png" class="img-fluid" alt="Shiv Nadar School Noida">
 						</div>
-						<div class="collaborator-text">
-							<p><a target="_blank" href="https://shivnadarfoundation.org">The Shiv Nadar Foundation</a> was established in
-								1994 by Shiv Nadar, Founder, HCL. The Foundation is committed to the creation of a more equitable, merit-based
-								society by empowering individuals through transformational education to bridge the socio-economic divide. To
-								that purpose the Foundation has established institutions and programs in the underdeveloped disciplinary areas
-								in India related to rural and urban education and art.</p>
-						</div>
+					</a>
+					<div class="collaborator-text">
+						<p><a target="_blank" href="http://www.shivnadarfoundation.org/">The Shiv Nadar Foundation</a> was established in
+							1994 by Shiv Nadar, Founder, HCL. The Foundation is committed to the creation of a more equitable, merit-based
+							society by empowering individuals through transformational education to bridge the socio-economic divide. To
+							that purpose the Foundation has established institutions and programs in the underdeveloped disciplinary areas
+							in India related to rural and urban education and art.</p>
 					</div>
-					<div class="col-lg-4 col-md-12 col-xs-4">
+				</div>
+				<div class="col-lg-6 col-md-12 col-xs-6">
+					<a target="_blank" href="http://www.lifelab.org.in/">
 						<div class="collaborator-logo">
 							<img src="img/collaborators/LLF.png" class="img-fluid" alt="LifeLab Foundation">
 						</div>
-						<div class="collaborator-text">
-							<p><a target="_blank" href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and
-								nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN).
-								Its goal is to educate students beyond the school curriculum to explore modern scientific research and its
-								applications in the real world. Through engagement programs for students and teachers, it exposes young people
-								to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a
-								difference.</p>
-						</div>
+					</a>
+					<div class="collaborator-text">
+						<p><a target="_blank" href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and
+							nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN).
+							Its goal is to educate students beyond the school curriculum to explore modern scientific research and its
+							applications in the real world. Through engagement programs for students and teachers, it exposes young people
+							to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a
+							difference.</p>
 					</div>
 				</div>
+			</div>
 			</div>
 		</section>
 
@@ -788,7 +813,7 @@
 				<div class="section-header">
 					<h2>Register Now</h2>
 					<p>Sign yourself up for this highly informative event!</p>
-					<p>Registration Fee is Rs. 7500/-</p>
+					<p>Registration Fee is Rs. 20,000/-</p>
 				</div>
 
 				<div class="form">
@@ -839,7 +864,7 @@
 						<h4>Useful Links</h4>
 						<ul>
 							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="https://home.cern/">CERN</a></li>
-							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="https://shivnadarfoundation.org">Shiv Nadar
+							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="http://www.shivnadarfoundation.org">Shiv Nadar
 									Foundation</a></li>
 							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="http://www.lifelab.org.in/">Life Lab Foundation</a></li>
 						</ul>

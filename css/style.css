@@ -528,6 +528,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
 }
 
+#intro p.intro-subtitle {
+  font-size: 27px;
+  color: rgb(208, 208, 208)
+}
+
 #intro p.intro-assoc {
   font-size: 30px;
 }
@@ -1651,8 +1656,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 16px;
   }
 
+  #intro p.intro-subtitle {
+    font-size: 18px;
+    color: rgb(19 9, 199, 199)
+  }
+
   #intro p.intro-assoc {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   #schedule .nav-tabs a {
