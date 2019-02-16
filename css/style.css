@@ -180,7 +180,7 @@ h6 {
 }
 
 #header #logo h1 a,
-#header #logo h1 a:hover, {
+#header #logo h1 a:hover {
   color: #fff;
 }
 
@@ -691,10 +691,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+.brief {
+  display: flex;
+  background: linear-gradient(to top, rgba(0, 171, 239, 1) 0%, rgba(0, 171, 239, 0.5) 30%, rgba(0, 171, 239, 0) 100%);
+}
+
+#brief {
+  align-self: flex-end;
+}
+
 #about h3, #socialevent h3 {
   font-size: 18px;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-bottom: 10px;
   color: #fff;
 }
@@ -1088,6 +1097,66 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
+#intro .collaborator-logo {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 1);
+  height: 70px;
+}
+
+#intro .row {
+  width: 60%;
+  margin-bottom: 1.5rem;
+}
+
+#intro .col-sm-6 {
+  width: 25%;
+  flex: 0 0 25%;
+}
+
+@media (max-width: 768px) {
+  #intro .collaborator-logo {
+    /* padding: 4px; */
+    height: 60px;
+  }
+  #intro .row {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  #intro .collaborator-logo {
+    padding: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  #intro .collaborator-logo {
+    height: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  #intro .collaborator-logo {
+    height: 60px;
+  }
+  #intro .col-sm-6 {
+    flex: 0 0 50%;
+    width: 50%;
+  }
+}
+
 #sponsors .sponsors-logo, #sponsors .sponsor-text,
 #collaborators .collaborator-logo, #collaborators .collaborator-text {
   padding: 30px;
@@ -1103,7 +1172,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-right: 1px solid #e0e5fa;
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
-  background: rgba(255, 255, 255, 1);
+  background: white;
   height: 160px;
 }
 
