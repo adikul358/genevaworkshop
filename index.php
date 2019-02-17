@@ -32,6 +32,7 @@
 					<li><a href="#collaborators">Collaborators</a></li>
 					<li><a href="#venue">Venue</a></li>
 					<li><a href="#schedule">Schedule</a></li>
+					<li><a href="#schedule">Committee Members</a></li>
 					<li class="buy-tickets"><a href="#register">Registration</a></li>
 				</ul>
 			</nav>
@@ -118,19 +119,17 @@
 					</div>
 					<div class="col-lg-3 brief">
 						<div id="brief">
-						<h3>Where</h3>
-						<p>Shiv Nadar School, Noida</p>
-						<h3>When</h3>
-						<p>22-26 April 2019</p>
-						<h3>No. of Seats</h3>
-						<p>50</p>
+							<h3>Where</h3>
+								<p>Shiv Nadar School, Noida</p>
+							<h3>When</h3>
+								<p>22-26 April 2019</p>
+							<h3>No. of Seats</h3>
+								<p>50</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-
-
 
 		<section id="collaborators" class="section-bg wow fadeInUp">
 			<div class="container">
@@ -202,60 +201,6 @@
 				</div>
 			</div>
 		</section>
-
-		<!-- <section id="sponsors" class="section-with-bg wow fadeInUp">
-			<div class="container">
-				<div class="section-header">
-					<h2>Our Sponsors</h2>
-				</div>
-
-				<div class="row no-gutters sponsors-wrap clearfix">
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/SNF.png" class="img-fluid" alt="Shiv Nadar Foundation">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-3">
-						<div class="sponsors-logo">
-							<img src="img/sponsors/LLF.png" class="img-fluid" alt="LifeLab Foundation">
-						</div>
-						<div class="sponsor-text">
-                <p><a href="http://www.lifelab.org.in/">LifeLab Foundation</a> is a non-profit that inspires and nurtures the scientists of tomorrow. It is founded and led by Dr. Archana Sharma (Principal Scientist, CERN). Its goal is to educate students beyond the school curriculum to explore modern scientific research and its applications in the real world. Through engagement programs for students and teachers, it exposes young people to the joy of scientific inquiry to further their interest in STEM subjects and associated careers to make a difference.</p> 
-              </div>
-					</div>
-				</div>
-			</div>
-		</section>-->
 
 		<section id="venue" class="section-bg wow fadeInUp">
 			<div class="container-fluid">
@@ -583,7 +528,8 @@
 									<img src="img/speakers/1.jpg" alt="Brenden Legros">
 								</div>
 								<h4>Module 1 <span>Brenden Legros</span></h4>
-								<!-- <p>Facere provident incidunt quos voluptas.</p> -->
+								<p>Concept-Based Teaching and Learning: A Student-Centered Cross-Disciplinary Curriculum linked to the
+									Sustainable Development Goals (SDGs)</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -593,7 +539,18 @@
 									<img src="img/speakers/2.jpg" alt="Hubert Hirthe">
 								</div>
 								<h4>Module 2 <span>Hubert Hirthe</span></h4>
-								<!-- <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p> -->
+								<p>Principles of Learning and Integrating STEM Education Pedagogy: Problem Solving, Critical Thinking, Capacity
+									Building</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time></time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/1.jpg" alt="Hubert Hirthe">
+								</div>
+								<h4>Module 3 <span>Hubert Hirthe</span></h4>
+								<p>STEM Project-Based Learning: Authentic & Effective Experiential Teaching and  Learning</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -608,8 +565,8 @@
 								<div class="speaker">
 									<img src="img/speakers/1.jpg" alt="Brenden Legros">
 								</div>
-								<h4>Module 3 <span>Brenden Legros</span></h4>
-								<!-- <p>Facere provident incidunt quos voluptas.</p> -->
+								<h4>Module 4 <span>Brenden Legros</span></h4>
+								<p>Education through the Arts, Movement and Mindfulness: Building Competences for a Better World</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -618,8 +575,18 @@
 								<div class="speaker">
 									<img src="img/speakers/2.jpg" alt="Hubert Hirthe">
 								</div>
-								<h4>Module 4 <span>Hubert Hirthe</span></h4>
-								<!-- <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p> -->
+								<h4>Module 5 <span>Hubert Hirthe</span></h4>
+								<p>Teaching and Learning for Inclusion: Role of all teachers in SEN & STEM</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time></time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/1.jpg" alt="Hubert Hirthe">
+								</div>
+								<h4>Module 6 <span>Hubert Hirthe</span></h4>
+								<p>Elementary particle physics in early physics education</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -691,7 +658,8 @@
 									<img src="img/speakers/1.jpg" alt="Brenden Legros">
 								</div>
 								<h4>Module 1 <span>Brenden Legros</span></h4>
-								<!-- <p>Facere provident incidunt quos voluptas.</p> -->
+								<p>Concept-Based Teaching and Learning: A Student-Centered Cross-Disciplinary Curriculum linked to the
+									Sustainable Development Goals (SDGs)</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -701,7 +669,18 @@
 									<img src="img/speakers/2.jpg" alt="Hubert Hirthe">
 								</div>
 								<h4>Module 2 <span>Hubert Hirthe</span></h4>
-								<!-- <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p> -->
+								<p>Principles of Learning and Integrating STEM Education Pedagogy: Problem Solving, Critical Thinking, Capacity
+									Building</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time></time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/1.jpg" alt="Hubert Hirthe">
+								</div>
+								<h4>Module 3 <span>Hubert Hirthe</span></h4>
+								<p>STEM Project-Based Learning: Authentic & Effective Experiential Teaching and  Learning</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -716,8 +695,8 @@
 								<div class="speaker">
 									<img src="img/speakers/1.jpg" alt="Brenden Legros">
 								</div>
-								<h4>Module 3 <span>Brenden Legros</span></h4>
-								<!-- <p>Facere provident incidunt quos voluptas.</p> -->
+								<h4>Module 4 <span>Brenden Legros</span></h4>
+								<p>Education through the Arts, Movement and Mindfulness: Building Competences for a Better World</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -726,8 +705,18 @@
 								<div class="speaker">
 									<img src="img/speakers/2.jpg" alt="Hubert Hirthe">
 								</div>
-								<h4>Module 4 <span>Hubert Hirthe</span></h4>
-								<!-- <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p> -->
+								<h4>Module 5 <span>Hubert Hirthe</span></h4>
+								<p>Teaching and Learning for Inclusion: Role of all teachers in SEN & STEM</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time></time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/1.jpg" alt="Hubert Hirthe">
+								</div>
+								<h4>Module 6 <span>Hubert Hirthe</span></h4>
+								<p>Elementary particle physics in early physics education</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -799,7 +788,8 @@
 									<img src="img/speakers/1.jpg" alt="Brenden Legros">
 								</div>
 								<h4>Module 1 <span>Brenden Legros</span></h4>
-								<!-- <p>Facere provident incidunt quos voluptas.</p> -->
+								<p>Concept-Based Teaching and Learning: A Student-Centered Cross-Disciplinary Curriculum linked to the
+									Sustainable Development Goals (SDGs)</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -809,7 +799,18 @@
 									<img src="img/speakers/2.jpg" alt="Hubert Hirthe">
 								</div>
 								<h4>Module 2 <span>Hubert Hirthe</span></h4>
-								<!-- <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p> -->
+								<p>Principles of Learning and Integrating STEM Education Pedagogy: Problem Solving, Critical Thinking, Capacity
+									Building</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time></time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/1.jpg" alt="Hubert Hirthe">
+								</div>
+								<h4>Module 3 <span>Hubert Hirthe</span></h4>
+								<p>STEM Project-Based Learning: Authentic & Effective Experiential Teaching and  Learning</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -824,8 +825,8 @@
 								<div class="speaker">
 									<img src="img/speakers/1.jpg" alt="Brenden Legros">
 								</div>
-								<h4>Module 3 <span>Brenden Legros</span></h4>
-								<!-- <p>Facere provident incidunt quos voluptas.</p> -->
+								<h4>Module 4 <span>Brenden Legros</span></h4>
+								<p>Education through the Arts, Movement and Mindfulness: Building Competences for a Better World</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -834,8 +835,18 @@
 								<div class="speaker">
 									<img src="img/speakers/2.jpg" alt="Hubert Hirthe">
 								</div>
-								<h4>Module 4 <span>Hubert Hirthe</span></h4>
-								<!-- <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p> -->
+								<h4>Module 5 <span>Hubert Hirthe</span></h4>
+								<p>Teaching and Learning for Inclusion: Role of all teachers in SEN & STEM</p>
+							</div>
+						</div>
+						<div class="row schedule-item">
+							<div class="col-md-2"><time></time></div>
+							<div class="col-md-10">
+								<div class="speaker">
+									<img src="img/speakers/1.jpg" alt="Hubert Hirthe">
+								</div>
+								<h4>Module 6 <span>Hubert Hirthe</span></h4>
+								<p>Elementary particle physics in early physics education</p>
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -848,7 +859,7 @@
 							<div class="col-md-2"><time>01:00 PM</time></div>
 							<div class="col-md-10">
 								<h4>Excursion</h4>
-								<p>Enjoy Your Trip Everyone</p>
+								<!-- <p>Enjoy Your Trip Everyone</p> -->
 							</div>
 						</div>
 						<div class="row schedule-item">
@@ -1016,25 +1027,6 @@
 
 		</section>
 
-		<!-- <section id="socialevent">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-9">
-						<h2>Social Event</h2>
-						<p style="text-align: justify">
-							Workshop reception hosted by Life Lab Education and Research Foundation and Shiv Nadar Foundation <div class="row">
-							</div>
-					</div>
-					<div class="col-lg-3">
-						<h3>Where</h3>
-						<p>Shiv Nadar School, Noida</p>
-						<h3>When</h3>
-						<p>April 2019</p>
-					</div>
-				</div>
-			</div>
-		</section> -->
-
 		<section id="register" class="section-with-bg wow fadeInUp">
 			<div class="container">
 				<div class="section-header">
@@ -1042,8 +1034,11 @@
 					<p>Sign yourself up for this highly informative event!</p>
 					<p>Registration Fee is Rs. 20,000/-</p>
 				</div>
+				<div class=form>
+					<div class="text-center"><button type="submit">Register</button></div>
+				</div>
 
-				<div class="form">
+				<!--<div class="form">
 					<div id="sendmessage"></div>
 					<div id="errormessage"></div>
 					<form action="/php/insert_data.php" method="post" id="registerForm" role="form" class="contactForm">
@@ -1073,7 +1068,7 @@
 							<div class="validation"></div>
 						</div>
 						<div class="text-center"><button type="submit">Register</button></div>
-					</form>
+					</form>-->
 				</div>
 			</div>
 		</section>
@@ -1111,11 +1106,11 @@
 							<strong>Email:</strong> <a href="vinita.sharat@sns.edu.in">vinita.sharat@sns.edu.in</a>
 						</p>
 
-						<div class="social-links">
+						<!-- <div class="social-links">
 							<a target="_blank" href="https://www.facebook.com/ShivNadarSchool" class="facebook"><i class="fa fa-facebook"></i></a>
 							<a target="_blank" href="https://twitter.com/ShivNadarSchool" class="twitter"><i class="fa fa-twitter"></i></a>
 							<a target="_blank" href="https://www.linkedin.com/company/shiv-nadar-school" class="linkedin"><i class="fa fa-linkedin"></i></a>
-						</div>
+						</div> -->
 					</div>
 
 				</div>
@@ -1154,6 +1149,7 @@
 	<script src="lib/owlcarousel/owl.carousel.min.js"></script>
 	<script src="js/contactform.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/navscr.js"></script>
 	<script src="js/scrollnav.js"></script>
 </body>
 

@@ -6,7 +6,7 @@ var lastId,
       var item = $($(this).attr("href"));
       if (item.length) { return item; }
     });
-
+console.log(menuItems);
 $(window).scroll(function(){
    var fromTop = $(this).scrollTop()+topMenuHeight;
    var cur = scrollItems.map(function(){

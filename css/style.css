@@ -665,7 +665,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 
-#about, #socialevent {
+#about, #subtitle {
   /* background: url("../img/about-bg.jpg"); */
   background-size: cover;
   overflow: hidden;
@@ -674,7 +674,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
-#about:before, #socialevent:before {
+#about:before, #subtitle:before {
   content: "";
   background: rgb(13, 20, 41);
   position: absolute;
@@ -684,11 +684,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
-#about h2, #socialevent h2 {
+#subtitle::before {
+  background: -moz-linear-gradient(-65deg, rgba(13,20,41,1) 0%, rgba(13,20,41,1) 75%, rgba(0,171,239,1) 75%, rgba(0,171,239,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(13,20,41,1)), color-stop(75%, rgba(13,20,41,1)), color-stop(75%, rgba(0,171,239,1)), color-stop(100%, rgba(0,171,239,1)));
+  background: -webkit-linear-gradient(-65deg, rgba(13,20,41,1) 0%, rgba(13,20,41,1) 75%, rgba(0,171,239,1) 75%, rgba(0,171,239,1) 100%);
+  background: -o-linear-gradient(-65deg, rgba(13,20,41,1) 0%, rgba(13,20,41,1) 75%, rgba(0,171,239,1) 75%, rgba(0,171,239,1) 100%);
+  background: -ms-linear-gradient(-65deg, rgba(13,20,41,1) 0%, rgba(13,20,41,1) 75%, rgba(0,171,239,1) 75%, rgba(0,171,239,1) 100%);
+  background: linear-gradient(115deg, rgba(13,20,41,1) 0%, rgba(13,20,41,1) 75%, rgba(0,171,239,1) 75%, rgba(0,171,239,1) 100%);
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1429', endColorstr='#00abef', GradientType=1 ); */
+}
+
+#about h2, #subtitle h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
+}
+
+#subtitle h2 {
+  font-size: 50px;
 }
 
 .brief {
@@ -700,7 +714,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   align-self: flex-end;
 }
 
-#about h3, #socialevent h3 {
+#about h3, #subtitle h3 {
   font-size: 18px;
   font-weight: bold;
   /* text-transform: uppercase; */
@@ -708,7 +722,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#about p, #socialevent p {
+#about p, #subtitle p {
   font-size: 16px;
   margin-bottom: 20px;
   color: #fff;
@@ -762,6 +776,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+a#contact:visited {
+  color: #00ABEF;
+}
+
 #speakers .speaker .details a:hover {
   color: #00ABEF;
 }
@@ -770,22 +788,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   bottom: 20px;
 }
 
-#speakers-details {
+.speakers-details {
   padding: 60px 0;
 }
 
-#speakers-details .details h2 {
+.speakers-details .details h2 {
   color: #112363;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-#speakers-details .details .social {
+.speakers-details .details .social {
   margin-bottom: 15px;
 }
 
-#speakers-details .details .social a {
+.speakers-details .details .social a {
   background: #e9edfb;
   color: #112363;
   line-height: 1;
@@ -797,16 +815,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 9px;
 }
 
-#speakers-details .details .social a:hover {
+.speakers-details .details .social a:hover {
   background: #00ABEF;
   color: #fff;
 }
 
-#speakers-details .details .social a i {
+.speakers-details .details .social a i {
   font-size: 18px;
 }
 
-#speakers-details .details p {
+.speakers-details .details p {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
@@ -1703,6 +1721,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #aboutcol {
     border: none !important;
+  }
+
+  .brief {
+    padding-top: 15px;
+    background: linear-gradient(to right, rgba(0, 171, 239, 1) 0%, rgba(0, 171, 239, 0.5) 50%, rgba(0, 171, 239, 0) 100%);
   }
 
   #nav-menu-container {
