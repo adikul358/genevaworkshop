@@ -10,7 +10,7 @@ function verifyAJAX(verID) {
       console.log(res[0] + " : " + res[1]);
       if (res[0] == 'OK') {
         $('#confirmation').html(res[1] + ", your email is succesfully verified");
-        $('#yes').append("<p>You will now recieve all important emails from Kanona Education for Transformation</p>");
+        $('#yes').append("<p>You will now recieve all important emails from CERN South Asia Science Education Program</p>");
       } else if (res[0] == 'AL') {
         $('#confirmation').html(res[1] + ", your email is already verified");
       } else { 

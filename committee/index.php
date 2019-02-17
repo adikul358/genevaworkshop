@@ -374,7 +374,7 @@
 					<p>Registration Fee is Rs. 20,000/-</p>
 				</div>
 				<div class="form">
-					<div class="text-center"><button type="submit">Register</button></div>
+					<div class="text-center"><a href="/register"><button type="submit">Register</button></a></div>
 				</div>
 			</div>
 		</section>
@@ -385,7 +385,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 col-md-7 footer-info">
-						<h1 class="mb-4 pb-0"><span>Kanona</span></h1>
+						<h1 class="mb-4 pb-0"><span></span></h1>
 					</div>
 
 					<div class="col-lg-4 col-md-7 footer-links">

@@ -881,40 +881,7 @@
 					<p>Registration Fee is Rs. 20,000/-</p>
 				</div>
 				<div class=form>
-					<div class="text-center"><button type="submit">Register</button></div>
-				</div>
-
-				<!--<div class="form">
-					<div id="sendmessage"></div>
-					<div id="errormessage"></div>
-					<form action="/php/insert_data.php" method="post" id="registerForm" role="form" class="contactForm">
-						<div class="form-row">
-							<div class="form-group col-md-6">
-								<input type="text" name="f_name" class="form-control" id="first_name" placeholder="First Name" data-rule="minlen:1"
-								 data-msg="Please enter your first name" />
-								<div class="validation"></div>
-							</div>
-							<div class="form-group col-md-6">
-								<input type="text" name="l_name" class="form-control" id="last_name" placeholder="Last Name" data-rule="minlen:1"
-								 data-msg="Please enter your last name" />
-								<div class="validation"></div>
-							</div>
-							<div class="form-group col-md-9">
-								<input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
-								<div class="validation"></div>
-							</div>
-							<div class="form-group col-md-3">
-								<input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" data-rule="phone" data-msg="Please enter a valid 10-digit phone no." />
-								<div class="validation"></div>
-							</div>
-						</div>
-						<div class="form-group">
-							<textarea class="form-control" name="about" rows="5" data-rule="minlen:15" data-msg="Please write more than 150 characters"
-							 placeholder="What motivates you to participate?"></textarea>
-							<div class="validation"></div>
-						</div>
-						<div class="text-center"><button type="submit">Register</button></div>
-					</form>-->
+					<div class="text-center"><a href="/register"><button type="submit">Register</button></a></div>
 				</div>
 			</div>
 		</section>
@@ -925,7 +892,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 col-md-7 footer-info">
-						<h1 class="mb-4 pb-0"><span>Kanona</span></h1>
+						<h1 class="mb-4 pb-0"><span></span></h1>
 					</div>
 
 					<div class="col-lg-4 col-md-7 footer-links">

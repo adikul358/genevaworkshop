@@ -694,6 +694,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1429', endColorstr='#00abef', GradientType=1 ); */
 }
 
+.registera#subtitle::before {
+  background: linear-gradient(115deg, #00abef 0%, #00abef 75%, #0d1429 75%, #0d1429 100%);
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d1429', endColorstr='#00abef', GradientType=1 ); */
+}
+
 #about h2, #subtitle h2 {
   font-size: 36px;
   font-weight: bold;
@@ -1369,6 +1374,17 @@ a#contact:visited {
 
 #register .card .text-muted {
   opacity: 0.7;
+}
+
+label.btn-primary {
+  background: #0d1429;
+  border-radius: 50px;
+  border: none;
+}
+
+label.btn-primary .active {
+  background: #00ABEF;
+  border-radius: 0;
 }
 
 #register .card .btn {

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Kanona Education for Transformation</title>
+  <title>CERN South Asia Science Education Program</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -79,7 +79,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-7 footer-info">
-            <h1 class="mb-4 pb-0"><span>Kanona</span></h1>
+            <h1 class="mb-4 pb-0"><span></span></h1>
           </div>
 
           <div class="col-lg-4 col-md-7 footer-links">
