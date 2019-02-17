@@ -1,12 +1,15 @@
 var lastId,
+    linkre = new RegExp("^/"),
     topMenu = $("#header"),
     topMenuHeight = topMenu.outerHeight(),
     menuItems = $(".nav-menu").find("a"),
     scrollItems = menuItems.map(function(){
-      var item = $($(this).attr("href"));
-      if (item.length) { return item; }
+      itemlink = $(this).attr("href");
+      if (!linkre.test(itemlink)) {
+        var item = $($(this).attr("href"));
+        if (item.length) { return item; }
+      }
     });
-console.log(menuItems);
 $(window).scroll(function(){
    var fromTop = $(this).scrollTop()+topMenuHeight;
    var cur = scrollItems.map(function(){

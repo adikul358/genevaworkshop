@@ -76,10 +76,14 @@ jQuery(document).ready(function( $ ) {
 
     var lastId,
     topMenuHeight = 70,
+    linkre = new RegExp("^/"),
     menuItems = $("#mobile-nav").find("a"),
     scrollItems = menuItems.map(function(){
-      var item = $($(this).attr("href"));
-      if (item.length) { return item; }
+      itemlink = $(this).attr("href");
+      if (!linkre.test(itemlink)) {
+        var item = $($(this).attr("href"));
+        if (item.length) { return item; }
+      } else { delete menuItems[this]; }
     });
 
     $(window).scroll(function(){
