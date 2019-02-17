@@ -87,7 +87,7 @@
 										<div class="validation"></div>
 									</div>
 									<div class="form-group col-md-12">
-										Last 3 Employers (if applicable)
+										<label for="ex_employer1">Last 3 Employers (if applicable)</label>	
 										<input type="text" class="form-control" name="ex_employer1" id="ex_employer1" placeholder="1." data-rule="" data-msg="" />
 										<input type="text" class="form-control" name="ex_employer2" id="ex_employer2" placeholder="2." data-rule="" data-msg="" />
 										<input type="text" class="form-control" name="ex_employer3" id="ex_employer3" placeholder="3." data-rule="" data-msg="" />
@@ -105,7 +105,7 @@
 										<div class="validation"></div>
 									</div>
 									<div class="form-group col-md-12">
-										<label for="IB_curr">Have you taught IB Curriculum?</label>
+										<label for="IB_curr_yes">Have you taught IB Curriculum?</label>
 										<div class="btn-group btn-group-toggle" data-toggle="buttons">
 											<label class="btn btn-primary">
 												<input type="radio" name="IB_curr" value="yes" id="IB_curr_yes"> Yes
@@ -119,22 +119,22 @@
 							</div>
 						</div>
 						<div class="form-group">
-							What motivates you to participate?
-							<textarea class="form-control" name="about" rows="5" data-rule="minlen:1500" data-msg="Please write 250-300 words" placeholder=""></textarea>
+							<label for="participatereason">What motivates you to participate?</label>
+							<textarea id="participatereason" class="form-control" name="about" rows="5" data-rule="minlen:1500" data-msg="Please write 250-300 words" placeholder=""></textarea>
 							<div class="validation"></div>
 						</div>
 						<div class="form-group">
-						Choose a concept and describe it in an innovative way – that is, without using the textbook language and instead, using on a real world example or an activity. Explain the concept as if you are explaining it to your students
-							<textarea class="form-control" name="about" rows="5" data-rule="minlen:1500" data-msg="Please write 250-300 words" placeholder=""></textarea>
+							<label for="conceptteaching">Choose a concept and describe it in an innovative way – that is, without using the textbook language and instead, using on a real world example or an activity. Explain the concept as if you are explaining it to your students</label>
+							<textarea id="conceptteaching" class="form-control" name="about" rows="5" data-rule="minlen:1500" data-msg="Please write 250-300 words" placeholder=""></textarea>
 							<div class="validation"></div>
 						</div>
 						<div class="form-group">
-						<label>List three ways in which you will use and apply your learning from this workshop.</label>
-							<input type="text" class="form-control" name="about" data-rule="required" data-msg="Please write your first reason" placeholder="1."/>
+						<label for="apply1">List three ways in which you will use and apply your learning from this workshop.</label>
+							<input type="text" class="form-control" name="apply1" data-rule="required" data-msg="Please write your first reason" placeholder="1." id="apply1"/>
 							<div class="validation"></div>
-							<input type="text" class="form-control" name="about" data-rule="required" data-msg="Please write your second reason" placeholder="2."/>
+							<input type="text" class="form-control" name="apply2" data-rule="required" data-msg="Please write your second reason" placeholder="2." id="apply2"/>
 							<div class="validation"></div>
-							<input type="text" class="form-control" name="about" data-rule="required" data-msg="Please write your third reason" placeholder="3."/>
+							<input type="text" class="form-control" name="apply3" data-rule="required" data-msg="Please write your third reason" placeholder="3." id="apply3"/>
 							<div class="validation"></div>
 						</div>
 						<div class="text-center"><button type="submit">Register</button></div>
