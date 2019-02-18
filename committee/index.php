@@ -282,96 +282,84 @@
 			</div>
 		</section>
 
-		<section id="orgacomm" class="speakers-details wow fadeIn">
-			<div class="container">
-				<div class="section-header">
-					<h2>Organising Committee</h2>
-				</div>
-				<div class="row">
-					<div class="col-md-3">
-						<img src="img/speakers/2.jpg" alt="Speaker 1" class="img-fluid">
-					</div>
+		<section id="speakers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Organising Committee</h2>
+        </div>
 
-					<div class="col-md-9">
-						<div class="details">
-							<h2>Matthew Ivulich</h2>
-							<!-- <div class="social">
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
-							</div> -->
-							<p>Matthew Ivulich is the Head of Senior School at Shiv Nadar School Noida</p>
-						</div>
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-3">
-						<img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
-					</div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/Matthew Ivulich.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Matthew Ivulich</a></h3>
+                <p>Head of Senior School at Shiv Nadar School Noida</p>
+                <!-- <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Jyotsna Gaur</a></h3>
+                <p>IB Co-ordinator at Shiv Nadar School Noida</p>
+                <!-- <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Vineeta Sharat</a></h3>
+                <p>STEAM Co-ordinator at Shiv Nadar School Noida</p>
+                <!-- <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/Mala Sinha.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Mala Sinha</a></h3>
+                <p>IB Educator at Shiv Nadar School Noida</p>
+                <!-- <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-					<div class="col-md-9">
-						<div class="details">
-							<h2>Jyotsna Gaur</h2>
-							<!-- <div class="social">
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
-							</div> -->
-						</div>
-					</div>
-				</div>
-				<br>
-
-				<div class="row">
-					<div class="col-md-3">
-						<img src="img/speakers/3.jpg" alt="Speaker 1" class="img-fluid">
-					</div>
-
-					<div class="col-md-9">
-						<div class="details">
-							<h2>Vinita Sharat</h2>
-							<p>STEAM Co-ordinator at Shiv Nadar School Noida</p>
-							<!-- <div class="social">
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
-							</div> -->
-						</div>
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-3">
-						<img src="img/speakers/4.jpg" alt="Speaker 1" class="img-fluid">
-					</div>
-
-					<div class="col-md-9">
-						<div class="details">
-							<h2>Mala Sinha</h2>
-							<p>IB Co-ordinator at Shiv Nadar School Noida</p>
-							<!-- <div class="social">
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
-							</div> -->
-						</div>
-					</div>
-				</div>
-				<br>
-			</div>
-		</section>
+    </section>
 
 		<section id="register" class="section-with-bg wow fadeInUp">
 			<div class="container">
 				<div class="section-header">
 					<h2>Register Now</h2>
 					<p>Sign yourself up for this highly informative event!</p>
-					<p>Registration Fee is Rs. 20,000/-</p>
+					<p>Registration Fee is Rs. 20,000/- or $300</p>
 				</div>
 				<div class="form">
 					<div class="text-center"><a href="/register"><button type="submit">Register</button></a></div>
@@ -380,67 +368,7 @@
 		</section>
 	</main>
 
-	<footer id="footer">
-		<div class="footer-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-7 footer-info">
-						<h1 class="mb-4 pb-0"><span></span></h1>
-					</div>
-
-					<div class="col-lg-4 col-md-7 footer-links">
-						<h4>Useful Links</h4>
-						<ul>
-							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="https://home.cern/">CERN</a></li>
-							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="https://ecolint.ch">Ecolint</a></li>
-							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="http://www.lifelab.org.in/">Life Lab Foundation</a></li>
-							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="http://www.shivnadarfoundation.org">Shiv Nadar
-									Foundation</a></li>
-						</ul>
-					</div>
-
-					<div class="col-lg-4 col-md-7 footer-contact">
-						<h4>Contact Us</h4>
-						<p>
-							Prachi Jha (Lifelab Foundation)<br>
-							<strong>Phone:</strong> <a id='contact' href="tel:+918377833563">83778 33563</a><br>
-							<strong>Email:</strong> <a id='contact' href="mailto:prachi@lifelab.org.in">prachi@lifelab.org.in</a>
-						</p>
-						<p>
-							Vinita Sharat (Shiv Nadar School)<br>
-							<strong>Phone:</strong> <a id='contact' href="tel:+919654143732">96541 43732</a><br>
-							<strong>Email:</strong> <a id='contact' href="vinita.sharat@sns.edu.in">vinita.sharat@sns.edu.in</a>
-						</p>
-
-						<div class="social-links">
-							<a target="_blank" href="https://www.facebook.com/ShivNadarSchool" class="facebook"><i class="fa fa-facebook"></i></a>
-							<a target="_blank" href="https://twitter.com/ShivNadarSchool" class="twitter"><i class="fa fa-twitter"></i></a>
-							<a target="_blank" href="https://www.linkedin.com/company/shiv-nadar-school" class="linkedin"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-7">
-					<div class="copyright">
-						Website designed by <span style="color: #00ABEF">Aditya Kulshrestha</span>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-7">
-					<div class="copyright">
-						&copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
-					</div>
-					<div class="credits">
-						Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<?php include "../footer.html"; ?>
 
 	<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 

@@ -59,7 +59,7 @@ jQuery(document).ready(function($) {
             break;
 
           case 'phone':
-            if (i.val().length < 10 || !phoneExp.test(i.val())) {
+            if (i.val().length != 10 || !phoneExp.test(i.val())) {
               ferror = ierror = true;
             }
             break;

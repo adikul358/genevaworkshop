@@ -5,13 +5,20 @@
 --
 
 CREATE TABLE `registrationData` (
-  `id` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `fName` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `lName` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `email` varchar(200) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `verID` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `phone` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  `id` varchar,
+  `first_name`varchar,
+  `last_name` varchar ,
+  `phone` int,
+  `email` varchar,
+  `city` varchar,
+  `employer` varchar,
+  `subjects` varchar,
+  `curriculum` varchar,
+  `class_size` int,
+  `IB curr` varchar,
+);
+
+CREate
 
 -- --------------------------------------------------------
 

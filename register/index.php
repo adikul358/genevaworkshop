@@ -52,12 +52,12 @@
 							<div class="col-md-6">
 								<div class="form-row">
 									<div class="form-group col-md-10">
-										<input type="text" name="f_name" class="form-control" id="first_name" placeholder="First Name" data-rule="minlen:1"
+										<input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Name" data-rule="minlen:1"
 										data-msg="Please enter your first name" />
 										<div class="validation"></div>
 									</div>
 									<div class="form-group col-md-10">
-										<input type="text" name="l_name" class="form-control" id="last_name" placeholder="Last Name" data-rule="minlen:1"
+										<input type="text" name="last_name" class="form-control" id="last_name" placeholder="Last Name" data-rule="minlen:1"
 										data-msg="Please enter your last name" />
 										<div class="validation"></div>
 									</div>
@@ -120,7 +120,7 @@
 						</div>
 						<div class="form-group">
 							<label for="participatereason">What motivates you to participate?</label>
-							<textarea id="participatereason" class="form-control" name="about" rows="5" data-rule="minlen:1500" data-msg="Please write 250-300 words" placeholder=""></textarea>
+							<textarea id="participatereason" class="form-control" name="participate_reason" rows="5" data-rule="minlen:1500" data-msg="Please write 250-300 words" placeholder=""></textarea>
 							<div class="validation"></div>
 						</div>
 						<div class="form-group">
@@ -144,67 +144,7 @@
 		</section>
 	</main>
 
-	<footer id="footer">
-		<div class="footer-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-7 footer-info">
-						<h1 class="mb-4 pb-0"><span></span></h1>
-					</div>
-
-					<div class="col-lg-4 col-md-7 footer-links">
-						<h4>Useful Links</h4>
-						<ul>
-							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="https://home.cern/">CERN</a></li>
-							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="https://ecolint.ch">Ecolint</a></li>
-							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="http://www.lifelab.org.in/">Life Lab Foundation</a></li>
-							<li><i class="fa fa-angle-right"></i> <a target="_blank" href="http://www.shivnadarfoundation.org">Shiv Nadar
-									Foundation</a></li>
-						</ul>
-					</div>
-
-					<div class="col-lg-4 col-md-7 footer-contact">
-						<h4>Contact Us</h4>
-						<p>
-							Prachi Jha (Lifelab Foundation)<br>
-							<strong>Phone:</strong> <a id='contact' href="tel:+918377833563">83778 33563</a><br>
-							<strong>Email:</strong> <a id='contact' href="mailto:prachi@lifelab.org.in">prachi@lifelab.org.in</a>
-						</p>
-						<p>
-							Vinita Sharat (Shiv Nadar School)<br>
-							<strong>Phone:</strong> <a id='contact' href="tel:+919654143732">96541 43732</a><br>
-							<strong>Email:</strong> <a id='contact' href="vinita.sharat@sns.edu.in">vinita.sharat@sns.edu.in</a>
-						</p>
-
-						<div class="social-links">
-							<a target="_blank" href="https://www.facebook.com/ShivNadarSchool" class="facebook"><i class="fa fa-facebook"></i></a>
-							<a target="_blank" href="https://twitter.com/ShivNadarSchool" class="twitter"><i class="fa fa-twitter"></i></a>
-							<a target="_blank" href="https://www.linkedin.com/company/shiv-nadar-school" class="linkedin"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-7">
-					<div class="copyright">
-						Website designed by <span style="color: #00ABEF">Aditya Kulshrestha</span>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-7">
-					<div class="copyright">
-						&copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
-					</div>
-					<div class="credits">
-						Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<?php include "../footer.html"; ?>
 
 	<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
