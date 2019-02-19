@@ -74,6 +74,10 @@
 										<input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
 										<div class="validation"></div>
 									</div>
+									<div class="form-group col-md-12">
+										<input type="file" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+										<div class="validation"></div>
+									</div>
 								</div>
 							</div>
 							<div class="col-md-6">

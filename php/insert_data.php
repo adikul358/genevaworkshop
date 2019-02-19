@@ -4,7 +4,7 @@
     
     function generate_id() {
         global $conn;
-        $sql = "SELECT id FROM registrationData ORDER BY id DESC LIMIT 1";
+        $sql = "SELECT id FROM registered_data ORDER BY id DESC LIMIT 1";
         $result = mysqli_query($conn, $sql);
         if ($result) { 
             if(mysqli_num_rows($result)>0) { 
@@ -13,21 +13,10 @@
                 } 
             }
         }
-        else { $last = "KAN19_00"; }
-        $last_id = intval(substr($last, 6));  
-        $id = $last_id >= 9 ? "KAN19_" . ($last_id + 1) : "KAN19_0" . ($last_id + 1);
+        else { $last = "CSEP1900"; }
+        $last_id = intval(substr($last, 7));  
+        $id = $last_id >= 9 ? "CSEP19" . ($last_id + 1) : "CSEP190" . ($last_id + 1);
         return $id;
-    }
-
-    function add_about($id) {
-        $about = array();   
-        $about['path'] = "../about_data/unverified/" . $id . ".txt";
-        if (!is_dir("../about_data")) { mkdir("../about_data"); }
-        if (!is_dir("../about_data/unverified")) { mkdir("../about_data/unverified"); }
-        $about['file'] = fopen($about['path'], 'w');
-        $about['text'] = $_POST['about'];
-        fwrite($about['file'], $about['text']);
-        fclose($about['file']);
     }
 
     function generate_link($code, $html = '', $link = "http://kanonatw.esy.es/verify/?vercode=") {
@@ -60,7 +49,7 @@
     function checkAL() {
         global $conn;
         $email = $_POST['email'];
-        $sql = "SELECT fName, lName, email FROM registrationData WHERE email='$email'";
+        $sql = "SELECT fName, lName, email FROM registered_data WHERE email='$email'";
         $result = mysqli_query($conn, $sql);
         if ($result && mysqli_num_rows($result) > 0) {
             while ($row = mysqli_fetch_assoc($result)) { $name = $row['fName'] . " " . $row['lName']; }
