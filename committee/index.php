@@ -29,7 +29,7 @@
 				<ul class="nav-menu">
 					<li><a href="#progleads">Program Leads</a></li>
 					<li><a href="#advicomm">International Advisory Committee</a></li>
-					<li><a href="#orgacomm">Organising Committee</a></li>
+					<li><a href="#speakers">Organising Committee</a></li>
 					<li class="buy-tickets"><a href="#register">Registration</a></li>
 				</ul>
 			</nav>
