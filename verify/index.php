@@ -40,7 +40,7 @@
     }
   </style>
 </head>
-<?php $code = "'" . $_GET['vercode'] . "'";?>
+<?php $code = "'" . $_GET['verify_id'] . "'";?>
 
 <body onload="verifyAJAX(<?php echo $code;?>)">
   <div class="content">

@@ -1,2 +1,2 @@
-SELECT * FROM tempData;
-SELECT * FROM registrationData;
+SELECT * FROM temp_data;
+SELECT * FROM registered_data;
