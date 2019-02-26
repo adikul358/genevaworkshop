@@ -31,8 +31,8 @@
 					<li><a href="#about">About</a></li>
 					<li><a href="#collaborators">Collaborators</a></li>
 					<li><a href="#venue">Venue</a></li>
-					<li><a href="/schedule">Schedule</a></li>
-					<li><a href="/committee">Committee Members</a></li>
+					<li><a href="/genevaworkshop/schedule">Schedule</a></li>
+					<li><a href="/genevaworkshop/committee">Committee Members</a></li>
 					<li class="buy-tickets"><a href="#register">Registration</a></li>
 				</ul>
 			</nav>
@@ -235,7 +235,7 @@
 					<p>Registration Fee is Rs. 20,000/- or $300</p>
 				</div>
 				<div class=form>
-					<div class="text-center"><a href="/register"><button type="submit">Register</button></a></div>
+					<div class="text-center"><a href="/genevaworkshop/register"><button type="submit">Register</button></a></div>
 				</div>
 			</div>
 		</section>

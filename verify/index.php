@@ -67,7 +67,7 @@
           <h2 id="confirmation"></h2>
         </div>
         <div class="form" style="display:flex; justify-content: center; margin-bottom: 60px">
-          <a href="/"><button type="submit">Go To Home</button></a>
+          <a href="/genevaworkshop/"><button type="submit">Go To Home</button></a>
         </div>
       </div>
     </section>
