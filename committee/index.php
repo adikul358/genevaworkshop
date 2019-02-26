@@ -29,7 +29,7 @@
 				<ul class="nav-menu">
 					<li><a href="#progleads">Program Leads</a></li>
 					<li><a href="#advicomm">International Advisory Committee</a></li>
-					<li><a href="#orgacomm">Organising Committee</a></li>
+					<li><a href="#speakers">Organising Committee</a></li>
 					<li class="buy-tickets"><a href="#register">Registration</a></li>
 				</ul>
 			</nav>
@@ -55,7 +55,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/speakers/2.jpg" alt="Speaker 1" class="img-fluid">
+						<img src="/img/speakers/2.jpg" alt="Speaker 1" class="img-fluid">
 					</div>
 
 					<div class="col-md-9">
@@ -76,7 +76,7 @@
 				<br>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+						<img src="/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
 					</div>
 
 					<div class="col-md-9">
@@ -97,7 +97,7 @@
 
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/speakers/3.jpg" alt="Speaker 1" class="img-fluid">
+						<img src="/img/speakers/3.jpg" alt="Speaker 1" class="img-fluid">
 					</div>
 
 					<div class="col-md-9">
@@ -118,7 +118,7 @@
 				<br>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/speakers/4.jpg" alt="Speaker 1" class="img-fluid">
+						<img src="/img/speakers/4.jpg" alt="Speaker 1" class="img-fluid">
 					</div>
 
 					<div class="col-md-9">
@@ -142,7 +142,7 @@
 				<br>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/speakers/5.jpg" alt="Speaker 1" class="img-fluid">
+						<img src="/img/speakers/5.jpg" alt="Speaker 1" class="img-fluid">
 					</div>
 
 					<div class="col-md-9">
@@ -164,7 +164,7 @@
 				<br>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/speakers/6.jpg" alt="Speaker 1" class="img-fluid">
+						<img src="/img/speakers/6.jpg" alt="Speaker 1" class="img-fluid">
 					</div>
 
 					<div class="col-md-9">
@@ -195,7 +195,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/speakers/2.jpg" alt="Speaker 1" class="img-fluid">
+						<img src="/img/speakers/2.jpg" alt="Speaker 1" class="img-fluid">
 					</div>
 
 					<div class="col-md-9">
@@ -221,7 +221,7 @@
 				<br>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+						<img src="/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
 					</div>
 
 					<div class="col-md-9">
@@ -245,7 +245,7 @@
 
 				<div class="row">
 					<div class="col-md-3">
-						<img src="img/speakers/3.jpg" alt="Speaker 1" class="img-fluid">
+						<img src="/img/speakers/3.jpg" alt="Speaker 1" class="img-fluid">
 					</div>
 
 					<div class="col-md-9">
@@ -263,7 +263,7 @@
 				<br>
 				<!-- <div class="row">
 					<div class="col-md-3">
-						<img src="img/speakers/4.jpg" alt="Speaker 1" class="img-fluid">
+						<img src="/img/speakers/4.jpg" alt="Speaker 1" class="img-fluid">
 					</div>
 
 					<div class="col-md-9">
@@ -291,7 +291,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/Matthew Ivulich.jpg" alt="Speaker 1" class="img-fluid">
+              <img src="/img/speakers/Matthew Ivulich.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Matthew Ivulich</a></h3>
                 <p>Head of Senior School at Shiv Nadar School Noida</p>
@@ -306,7 +306,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+              <img src="/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Jyotsna Gaur</a></h3>
                 <p>IB Co-ordinator at Shiv Nadar School Noida</p>
@@ -321,7 +321,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+              <img src="/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Vineeta Sharat</a></h3>
                 <p>STEAM Co-ordinator at Shiv Nadar School Noida</p>
@@ -336,7 +336,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
-              <img src="img/speakers/Mala Sinha.jpg" alt="Speaker 4" class="img-fluid">
+              <img src="/img/speakers/Mala Sinha.jpg" alt="Speaker 4" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Mala Sinha</a></h3>
                 <p>IB Educator at Shiv Nadar School Noida</p>

@@ -1,2 +1,2 @@
-DELETE FROM tempData;
-DELETE FROM registrationData;
+DELETE FROM temp_data;
+DELETE FROM registered_data;
