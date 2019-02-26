@@ -43,6 +43,7 @@
 			<div class="container">
 				<div class="section-header">
 					<h2>Registration Form</h2>
+					<div class="text-center"><button class="btn btn-primary" id="fd">Fake Data</button></div>
 				</div>
 				<div class="form">
 					<div id="sendmessage"></div>
@@ -72,10 +73,6 @@
 									</div>
 									<div class="form-group col-md-12">
 										<input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
-										<div class="validation"></div>
-									</div>
-									<div class="form-group col-md-12">
-										<input type="file" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
 										<div class="validation"></div>
 									</div>
 								</div>
@@ -164,6 +161,7 @@
 	<script src="/js/contactform.js"></script>
 	<script src="/js/main.js"></script>
 	<script src="/js/scrollnav.js"></script>
+	<script src="/js/fakeformdata.js"></script>
 </body>
 
 </html>

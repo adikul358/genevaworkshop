@@ -107,14 +107,14 @@
     function verify($verify_id) {
         global $conn;
         $id = generate_id();
-        $sql = "SELECT * FROM re_data WHERE verify_id='$verify_id'";
+        $sql = "SELECT * FROM registration_data WHERE verify_id='$verify_id'";
         $result = mysqli_query($conn, $sql);
-        while ($row = mysqli_fetch_assoc($result)) { $name = $row['fName'] . " " . $row['lName']; }
+        while ($row = mysqli_fetch_assoc($result)) { $name = $row['first_name'] . " " . $row['last_name']; }
         if (mysqli_num_rows($result) > 0) { echo "AL-" . $name; }
         else {
             $sql = "SELECT * FROM temp_data WHERE verify_id='$verify_id'";
             $result = mysqli_query($conn, $sql);
-            while($row = mysqli_fetch_assoc($result)) { $email = $row['email']; $name = $row['fName'] . " " . $row['lName']; }
+            while($row = mysqli_fetch_assoc($result)) { $email = $row['email']; $name = $row['first_name'] . " " . $row['last_name']; }
             if(mysqli_num_rows($result) > 0) {
                 shift_data($verify_id, $email);
                 echo "OK-" . $name;
